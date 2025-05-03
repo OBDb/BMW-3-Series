@@ -1,0 +1,35 @@
+generations:
+  - name: "First Generation (E21)"
+    start_year: 1975
+    end_year: 1983
+    description: "The original BMW 3 Series replaced the 02 Series and was initially available only as a two-door sedan/coupe. It featured engines ranging from 1.6L to 2.3L, with the fuel-injected 323i being the performance highlight with 143 HP. The E21 established the 3 Series' reputation for sporty handling and driver engagement, setting the foundation for BMW's most successful model line."
+
+  - name: "Second Generation (E30)"
+    start_year: 1982
+    end_year: 1994
+    description: "The iconic E30 generation expanded the 3 Series range to include four-door sedan, wagon (Touring), and convertible body styles. Engine options ranged from economical four-cylinders to the powerful inline-six in the 325i. This generation also introduced the first M3, a homologation special with a high-revving four-cylinder engine that became one of the most celebrated driver's cars ever made. The E30 cemented BMW's position in the premium compact segment and remains highly regarded by enthusiasts."
+
+  - name: "Third Generation (E36)"
+    start_year: 1990
+    end_year: 2000
+    description: "The E36 represented a significant modernization of the 3 Series with more aerodynamic styling, improved safety features, and multi-link rear suspension. Available in sedan, coupe, convertible, wagon, and compact (hatchback) body styles, it offered a range of four and six-cylinder engines. The E36 M3 switched to a straight-six engine, offering a more refined high-performance experience. This generation helped establish BMW's global premium status."
+
+  - name: "Fourth Generation (E46)"
+    start_year: 1998
+    end_year: 2006
+    description: "Widely considered a high point for the 3 Series, the E46 balanced modern technology with traditional BMW driving dynamics. Available in sedan, coupe, convertible, wagon, and compact body styles, it featured refined straight-six engines and improved interior quality. The E46 M3 with its 333 HP 3.2L straight-six is particularly revered. This generation combined mechanical purity with modern comfort and technology."
+
+  - name: "Fifth Generation (E90/E91/E92/E93)"
+    start_year: 2005
+    end_year: 2013
+    description: "The fifth-generation 3 Series comprised the E90 sedan, E91 wagon, E92 coupe, and E93 convertible (with a folding hardtop). It introduced run-flat tires, advanced electronic systems, and turbocharged engines on non-M models. The M3 featured a high-revving 4.0L V8. While more technologically advanced than its predecessors, some enthusiasts felt it lost some of the traditional BMW handling feel."
+
+  - name: "Sixth Generation (F30/F31/F34)"
+    start_year: 2012
+    end_year: 2019
+    description: "The F30 generation separated the 3 Series sedan and wagon from the coupe and convertible (which became the 4 Series). It introduced a wider range of turbocharged engines, electric power steering, and significantly more technology. The F34 Gran Turismo offered a more practical fastback body style. The M3 returned to a straight-six engine, now twin-turbocharged with 425-450 HP. This generation focused on efficiency and technology while attempting to maintain BMW's driving dynamics."
+
+  - name: "Seventh Generation (G20/G21)"
+    start_year: 2019
+    end_year: null
+    description: "The current 3 Series features more aggressive styling, improved dynamics with a stiffer chassis, and advanced technology including partially automated driving capabilities. Engine options range from three-cylinder to six-cylinder units, with hybrid options available. The interior features BMW's latest iDrive system and digital displays. The G20 generation refocused on driver engagement following criticism of the F30. The M3 offers up to 503 HP in Competition form, with optional all-wheel drive for the first time. Throughout its evolution, the 3 Series has remained BMW's core model, embodying the brand's 'Ultimate Driving Machine' ethos while adapting to changing market demands."

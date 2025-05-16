@@ -30,3 +30,19 @@ supported_commands_by_ecu:
   - 0149:APP_D
   - 014A:APP_E
   - 014C:TAC_PCT
+unsupported_commands_by_ecu:
+  6F1:
+  - 6F1.607.226335
+  - 6F1.607.22DDBC
+  - 6F1.60D.22D240
+  - 6F1.618.22DA12
+  - 6F1.618.22DA1F
+  - 6F1.618.22DA22
+  - 6F1.618.22DA25
+  - 6F1.618.22DA37
+  - 6F1.619.22DB32
+  - 6F1.619.22DFE7
+  - 6F1.656.22DCDD
+  - 6F1.660.22D112
+  7E0:
+  - 7E0.7E8.0142

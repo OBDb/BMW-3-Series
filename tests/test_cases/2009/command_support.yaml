@@ -1,6 +1,4 @@
 model_year: 2009
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 supported_commands_by_ecu:
   7E0:
   - 0101:ACRF_RDY,ACRF_SUP,AIR_RDY,AIR_SUP,CAT_RDY,CAT_SUP,CCM_RDY,CCM_SUP,CIM_SUP,DTC_CNT,EGR_RDY,EGR_SUP,EVAP_RDY,EVAP_SUP,FUEL_RDY,FUEL_SUP,HCAT_RDY,HCAT_SUP,HTR_RDY,HTR_SUP,MIL,MIS_RDY,MIS_SUP,O2S_RDY,O2S_SUP
@@ -33,8 +31,11 @@ supported_commands_by_ecu:
 unsupported_commands_by_ecu:
   6F1:
   - 6F1.607.226335
+  - 6F1.607.22DD68
   - 6F1.607.22DDBC
+  - 6F1.607.22E5CE
   - 6F1.60D.22D240
+  - 6F1.612.22586F
   - 6F1.618.22DA12
   - 6F1.618.22DA1F
   - 6F1.618.22DA22
@@ -42,7 +43,7 @@ unsupported_commands_by_ecu:
   - 6F1.618.22DA37
   - 6F1.619.22DB32
   - 6F1.619.22DFE7
+  - 6F1.640.221700
   - 6F1.656.22DCDD
+  - 6F1.660.22420C
   - 6F1.660.22D112
-  7E0:
-  - 7E0.7E8.0142

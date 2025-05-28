@@ -33,6 +33,7 @@ unsupported_commands_by_ecu:
   - 6F1.607.226335
   - 6F1.607.22DD68
   - 6F1.607.22DDBC
+  - 6F1.607.22DDC0
   - 6F1.607.22E5CE
   - 6F1.60D.22D240
   - 6F1.612.22586F
@@ -40,6 +41,7 @@ unsupported_commands_by_ecu:
   - 6F1.618.22DA1F
   - 6F1.618.22DA22
   - 6F1.618.22DA25
+  - 6F1.618.22DA28
   - 6F1.618.22DA37
   - 6F1.619.22DB32
   - 6F1.619.22DFE7

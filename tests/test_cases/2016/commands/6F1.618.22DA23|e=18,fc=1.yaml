@@ -1,0 +1,26 @@
+command_id: 6F1.618.22DA23|e=18,fc=1
+test_cases:
+- response: |-
+    618F1100762DA230000
+    618F1213C17FFFFFFFF
+  expected_values:
+    BMW_ODO: 123064
+    BMW_ODO_LOWRES: 123064
+- response: |-
+    618F1100762DA230000
+    618F1216066FFFFFFFF
+  expected_values:
+    BMW_ODO: 197424
+    BMW_ODO_LOWRES: 197424
+- response: |-
+    618F1100762DA230000
+    618F121606FFFFFFFFF
+  expected_values:
+    BMW_ODO: 197496
+    BMW_ODO_LOWRES: 197496
+- response: |-
+    618F1100762DA230000
+    618F1216071FFFFFFFF
+  expected_values:
+    BMW_ODO: 197512
+    BMW_ODO_LOWRES: 197512

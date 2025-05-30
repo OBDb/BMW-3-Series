@@ -1,0 +1,8 @@
+command_id: 6F1.60D.22D240|e=0D,fc=1
+test_cases:
+- response: 60DF10562D2400000
+  expected_values:
+    BMW_VSS_INSTR: 0
+- response: 60DF10562D2400075
+  expected_values:
+    BMW_VSS_INSTR: 117

@@ -4,9 +4,9 @@ test_cases:
     640F110076217000002
     640F1210D35FFFFFFFF
   expected_values:
-    BMW_ODO_2: 134453
+    3SERIES_ODO_2: 134453.0
 - response: |-
     640F110076217000002
     640F1210E9EFFFFFFFF
   expected_values:
-    BMW_ODO_2: 134814
+    3SERIES_ODO_2: 134814.0

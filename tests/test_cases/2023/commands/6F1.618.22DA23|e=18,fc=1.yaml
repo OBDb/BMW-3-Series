@@ -8,37 +8,19 @@ test_cases:
     BMW_ODO_LOWRES: 95784
 - response: |-
     618F1100762DA230000
-    618F1212EC9FFFFFFFF
-  expected_values:
-    BMW_ODO: 95816
-    BMW_ODO_LOWRES: 95816
-- response: |-
-    618F1100762DA230000
     618F1212ED1FFFFFFFF
   expected_values:
     BMW_ODO: 95880
     BMW_ODO_LOWRES: 95880
 - response: |-
     618F1100762DA230000
-    618F1212EF6FFFFFFFF
-  expected_values:
-    BMW_ODO: 96176
-    BMW_ODO_LOWRES: 96176
-- response: |-
-    618F1100762DA230000
-    618F1212F09FFFFFFFF
-  expected_values:
-    BMW_ODO: 96328
-    BMW_ODO_LOWRES: 96328
-- response: |-
-    618F1100762DA230000
-    618F1212F2CFFFFFFFF
-  expected_values:
-    BMW_ODO: 96608
-    BMW_ODO_LOWRES: 96608
-- response: |-
-    618F1100762DA230000
     618F1212F2DFFFFFFFF
   expected_values:
     BMW_ODO: 96616
     BMW_ODO_LOWRES: 96616
+- response: |-
+    618F1100762DA230000
+    618F1212F77FFFFFFFF
+  expected_values:
+    BMW_ODO: 97208
+    BMW_ODO_LOWRES: 97208

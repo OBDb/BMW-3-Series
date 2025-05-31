@@ -3,6 +3,6 @@ test_cases:
 - response: 618F10562DA250048
   expected_values:
     BMW_EOT: 0
-- response: 618F10562DA250093
+- response: 618F10562DA250097
   expected_values:
     BMW_EOT: 0

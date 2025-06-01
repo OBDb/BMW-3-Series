@@ -6,7 +6,7 @@ test_cases:
     629F122000003030303
     629F1230064646464FF
   expected_values:
-    BMW_FL_SPD: 0
-    BMW_FR_SPD: 0
-    BMW_RL_SPD: 0
-    BMW_RR_SPD: 0
+    3SERIES_FL_SPD: 0.0
+    3SERIES_FR_SPD: 0.0
+    3SERIES_RL_SPD: 0.0
+    3SERIES_RR_SPD: 0.0

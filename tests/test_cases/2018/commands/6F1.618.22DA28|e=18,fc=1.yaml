@@ -4,4 +4,4 @@ test_cases:
     618F1100762DA280000
     618F1210000FFFFFFFF
   expected_values:
-    BMW_BRAKE_SWITCH: 0
+    3SERIES_BRAKE_SWITCH: 0

@@ -5,6 +5,6 @@ test_cases:
     618F121B5A300004DEA
     618F12200002C32FFFF
   expected_values:
-    BMW_TIME_D: 0
-    BMW_TIME_M: 181
-    BMW_TIME_S: 105
+    3SERIES_TIME_D: 0
+    3SERIES_TIME_M: 181.0
+    3SERIES_TIME_S: 105.0

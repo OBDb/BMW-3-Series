@@ -1,79 +1,4 @@
 { "commands": [
-{ "hdr": "6F1", "eax": "60", "fcm1": true, "dbg": true, "cmd": {"22": "420C"}, "freq": 5,
-  "signals": [
-    {"id": "3SERIES_RANGE_ECO",  "path": "Trips", "fmt": {           "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated range remaining in economy mode", "suggestedMetric": "electricRange"},
-    {"id": "3SERIES_RANGE_COMF", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated range remaining in comfort mode", "suggestedMetric": "electricRange"},
-    {"id": "3SERIES_RANGE",      "path": "Trips", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated range remaining",                 "suggestedMetric": "electricRange"}
-  ]},
-{ "hdr": "6F1", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "6335"}, "freq": 3600,
-  "signals": [
-    {"id": "3SERIES_HVBAT_SOH", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
-  ]},
-{ "hdr": "6F1", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DD68"}, "freq": 1,
-  "signals": [
-    {"id": "3SERIES_HVBAT_V", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "volts" }, "name": "HV battery voltage"}
-  ]},
-{ "hdr": "6F1", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DD69"}, "freq": 30,
-  "signals": [
-    {"id": "3SERIES_HVBAT_C",    "path": "Battery", "fmt": { "len": 32, "max": 10000, "min": -10000, "div": 100, "sign": true, "unit": "amps" }, "name": "HV battery current"},
-    {"id": "3SERIES_HVBAT_CURR", "path": "Battery", "fmt": { "len": 32, "max": 10000, "min": -10000, "div": 100,               "unit": "amps" }, "name": "HV battery current"}
-  ]},
-{ "hdr": "6F1", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DDBC"}, "freq": 1,
-  "signals": [
-    {"id": "3SERIES_HVBAT_SOC",     "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge",           "suggestedMetric": "stateOfCharge"},
-    {"id": "3SERIES_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (maximum)"},
-    {"id": "3SERIES_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge (minimum)"}
-  ]},
-{ "hdr": "6F1", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DDC0"}, "freq": 30,
-  "signals": [
-    {"id": "3SERIES_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature (min)"},
-    {"id": "3SERIES_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "unit": "celsius" }, "name": "HV battery cell temperature (max)"}
-  ]},
-{ "hdr": "6F1", "eax": "1A", "fcm1": true, "dbg": true, "cmd": {"22": "DE00"}, "freq": 5,
-  "signals": [
-    {"id": "3SERIES_HVBAT_HVPM_SOC",     "path": "Battery", "fmt": {           "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge (hvpm)",  "description": "Battery level reading from the high voltage power module"},
-    {"id": "3SERIES_HVBAT_HVPM_MIN_SOC", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 100, "div": 2,  "unit": "percent" }, "name": "Minimum state of charge"},
-    {"id": "3SERIES_HVBAT_CHG_CON",      "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Is charger connected",    "suggestedMetric": "pluggedIn"},
-    {"id": "3SERIES_HVBAT_CHG_CON_EXT",  "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Is charging",             "suggestedMetric": "isCharging"},
-    {"id": "3SERIES_HVBAT_CHG_RDY",      "path": "Battery", "fmt": {"bix": 40, "len": 8,  "max": 1,              "unit": "noyes"   }, "name": "Ready to drive"}
-  ]},
-{ "hdr": "6F1", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DF71"}, "freq": 86400,
-  "signals": [
-    {"id": "3SERIES_HVBAT_C_CNT",     "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "scalar" }, "name": "Number of cells"},
-    {"id": "3SERIES_HVBAT_C_CNT_MOD", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of cells per module"},
-    {"id": "3SERIES_HVBAT_MOD_CNT",   "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of modules"},
-    {"id": "3SERIES_HVBAT_MOD_T_CNT", "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of temperature sensors per module"}
-  ]},
-{ "hdr": "6F1", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "DFA0"}, "freq": 1,
-  "signals": [
-    {"id": "3SERIES_HVBAT_C_CAP_MIN",        "path": "Battery", "fmt": {            "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity (min)"},
-    {"id": "3SERIES_HVBAT_C_CAP_MAX",        "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity (max)"},
-    {"id": "3SERIES_HVBAT_C_CAP_AVG",        "path": "Battery", "fmt": {"bix": 32,  "len": 16, "max": 655.35,                 "div": 100,                 "unit": "ampereHours" }, "name": "Cell capacity (average)"},
-    {"id": "3SERIES_HVBAT_C_V_MIN",          "path": "Battery", "fmt": {"bix": 48,  "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell voltage (min))"},
-    {"id": "3SERIES_HVBAT_C_V_MAX",          "path": "Battery", "fmt": {"bix": 64,  "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell voltage (max)"},
-    {"id": "3SERIES_HVBAT_C_V_AVG",          "path": "Battery", "fmt": {"bix": 80,  "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell voltage (avg)"},
-    {"id": "3SERIES_HVBAT_C_TEMP_MIN",       "path": "Battery", "fmt": {"bix": 96,  "len": 16, "max": 327.67, "min": -327.68, "div": 100,   "sign": true, "unit": "celsius"     }, "name": "Cell temperature (min)"},
-    {"id": "3SERIES_HVBAT_C_TEMP_MAX",       "path": "Battery", "fmt": {"bix": 112, "len": 16, "max": 327.67, "min": -327.68, "div": 100,   "sign": true, "unit": "celsius"     }, "name": "Cell temperature (max)"},
-    {"id": "3SERIES_HVBAT_C_TEMP_AVG",       "path": "Battery", "fmt": {"bix": 128, "len": 16, "max": 327.67, "min": -327.68, "div": 100,   "sign": true, "unit": "celsius"     }, "name": "Cell temperature (avg)"},
-    {"id": "3SERIES_HVBAT_C_RES_FACTOR_MIN", "path": "Battery", "fmt": {"bix": 144, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Cell resistance factor (min)"},
-    {"id": "3SERIES_HVBAT_C_RES_FACTOR_MAX", "path": "Battery", "fmt": {"bix": 160, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Cell resistance factor (max)"},
-    {"id": "3SERIES_HVBAT_C_RES_FACTOR_AVG", "path": "Battery", "fmt": {"bix": 176, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Cell resistance factor (avg)"},
-    {"id": "3SERIES_HVBAT_C_SOC_MIN",        "path": "Battery", "fmt": {"bix": 192, "len": 16, "max": 655.35,                 "div": 100,                 "unit": "percent"     }, "name": "Cell SoC (min)"},
-    {"id": "3SERIES_HVBAT_C_SOC_MAX",        "path": "Battery", "fmt": {"bix": 208, "len": 16, "max": 655.35,                 "div": 100,                 "unit": "percent"     }, "name": "Cell SoC (max)"},
-    {"id": "3SERIES_HVBAT_C_SOC_AVG",        "path": "Battery", "fmt": {"bix": 224, "len": 16, "max": 655.35,                 "div": 100,                 "unit": "percent"     }, "name": "Cell SoC (avg)"},
-    {"id": "3SERIES_HVBAT_C_OCV_MIN",        "path": "Battery", "fmt": {"bix": 240, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV (min)"},
-    {"id": "3SERIES_HVBAT_C_OCV_MAX",        "path": "Battery", "fmt": {"bix": 256, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV (max)"},
-    {"id": "3SERIES_HVBAT_C_OCV_AVG",        "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "volts"       }, "name": "Cell OCV (avg)"},
-    {"id": "3SERIES_HVBAT_IMPEDANCE_ALPHA",  "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 6.5535,                 "div": 10000,               "unit": "scalar"      }, "name": "Aging factor"}
-  ]},
-{ "hdr": "6F1", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "E5C7"}, "freq": 1,
-  "signals": [
-    {"id": "3SERIES_HVBAT_SOH_V2", "path": "Battery", "fmt": {"bix": 24, "len": 8, "max": 100, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
-  ]},
-{ "hdr": "6F1", "eax": "07", "fcm1": true, "dbg": true, "cmd": {"22": "E5CE"}, "freq": 1,
-  "signals": [
-    {"id": "3SERIES_HVBAT_SOC_V2", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "percent" }, "name": "HV battery charge", "suggestedMetric": "stateOfCharge"}
-  ]},
 { "hdr": "6F1", "rax": "60D", "eax": "0D", "fcm1": true, "cmd": {"22": "D240"}, "freq": 0.25, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
     {"id": "3SERIES_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed (instrument cluster)", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
@@ -108,8 +33,7 @@
   ]},
 { "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2019, 2020, 2021], "from": 2024 },
   "signals": [
-    {"id": "3SERIES_ODO_LOWRES", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "unit": "kilometers" }, "name": "Odometer, low resolution", "suggestedMetric": "odometer"},
-    {"id": "3SERIES_ODO",        "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "unit": "kilometers" }, "name": "[EGS] mileage/odometer"}
+    {"id": "3SERIES_ODO_LOWRES", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "unit": "kilometers" }, "name": "Odometer, low resolution", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA25"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2019, 2020, 2021], "from": 2024 },
   "signals": [
@@ -126,7 +50,6 @@
   ]},
 { "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2019, 2020, 2021], "from": 2024 },
   "signals": [
-    {"id": "3SERIES_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"},
     {"id": "3SERIES_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "0": { "description": "Park",    "value": "PARK" },
           "1": { "description": "Reverse", "value": "REVERSE" },

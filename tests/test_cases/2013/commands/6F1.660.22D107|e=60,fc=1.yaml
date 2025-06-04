@@ -2,10 +2,10 @@ command_id: 6F1.660.22D107|e=60,fc=1
 test_cases:
 - response: 660F10562D1070000
   expected_values:
-    BMW_VSS: 0
+    3SERIES_VSS: 0
 - response: 660F10562D10704FF
   expected_values:
-    BMW_VSS: 127.9
+    3SERIES_VSS: 127.9
 - response: 660F10562D1070514
   expected_values:
-    BMW_VSS: 130
+    3SERIES_VSS: 130.0

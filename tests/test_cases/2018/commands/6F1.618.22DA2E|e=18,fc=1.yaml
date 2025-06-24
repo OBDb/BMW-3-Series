@@ -2,5 +2,5 @@ command_id: 6F1.618.22DA2E|e=18,fc=1
 test_cases:
 - response: 618F10562DA2E0001
   expected_values:
-    BMW_GEAR: 0
-    BMW_GEAR_SHIFT: PARK
+    3SERIES_GEAR: 0
+    3SERIES_GEAR_SHIFT: PARK

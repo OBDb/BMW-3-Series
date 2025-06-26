@@ -1,52 +1,52 @@
 command_id: 6F1.660.22D111|e=60,fc=1
 test_cases:
-- response: |-
-    660F1100F62D1110000
-    660F121000005B4FFFF
-    660F1223A980000FFFF
-  expected_values:
+- expected_values:
     BMW_AUX_PWR: 0
     BMW_RANGE_E_CUR: 0
     BMW_RANGE_E_MAX: 0
     BMW_RANGE_E_USE: 15
     BMW_RANGE_F_CUR: 146
-- response: |-
+  response: |-
     660F1100F62D1110000
-    660F121000005BEFFFF
+    660F121000005B4FFFF
     660F1223A980000FFFF
-  expected_values:
+- expected_values:
     BMW_AUX_PWR: 0
     BMW_RANGE_E_CUR: 0
     BMW_RANGE_E_MAX: 0
     BMW_RANGE_E_USE: 15
     BMW_RANGE_F_CUR: 147
-- response: |-
+  response: |-
     660F1100F62D1110000
-    660F12100000FFAFFFF
+    660F121000005BEFFFF
     660F1223A980000FFFF
-  expected_values:
+- expected_values:
+    BMW_AUX_PWR: 0
+    BMW_RANGE_E_CUR: 0
+    BMW_RANGE_E_MAX: 0
+    BMW_RANGE_E_USE: 15
+    BMW_RANGE_F_CUR: 184
+  response: |-
+    660F1100F62D1110000
+    660F12100000730FFFF
+    660F1223A980000FFFF
+- expected_values:
     BMW_AUX_PWR: 0
     BMW_RANGE_E_CUR: 0
     BMW_RANGE_E_MAX: 0
     BMW_RANGE_E_USE: 15
     BMW_RANGE_F_CUR: 409
-- response: |-
+  response: |-
     660F1100F62D1110000
-    660F12100001036FFFF
+    660F12100000FFAFFFF
     660F1223A980000FFFF
-  expected_values:
+- expected_values:
     BMW_AUX_PWR: 0
     BMW_RANGE_E_CUR: 0
     BMW_RANGE_E_MAX: 0
     BMW_RANGE_E_USE: 15
-    BMW_RANGE_F_CUR: 415
-- response: |-
+    BMW_RANGE_F_CUR: 411
+  response: |-
     660F1100F62D1110000
-    660F12100001040FFFF
+    660F1210000100EFFFF
     660F1223A980000FFFF
-  expected_values:
-    BMW_AUX_PWR: 0
-    BMW_RANGE_E_CUR: 0
-    BMW_RANGE_E_MAX: 0
-    BMW_RANGE_E_USE: 15
-    BMW_RANGE_F_CUR: 416

@@ -1,38 +1,50 @@
 command_id: 6F1.660.22D10D|e=60,fc=1
 test_cases:
-- response: |-
-    660F1100B62D10D0002
-    660F12139AD000239AD
-  expected_values:
+- expected_values:
     BMW_ODO1: 145837
     BMW_ODO2: 145837
-- response: |-
+  response: |-
     660F1100B62D10D0002
-    660F12139AF000239AF
-  expected_values:
+    660F12139AD000239AD
+- expected_values:
     BMW_ODO1: 145839
     BMW_ODO2: 145839
-- response: |-
+  response: |-
     660F1100B62D10D0002
-    660F12139B0000239B0
-  expected_values:
+    660F12139AF000239AF
+- expected_values:
     BMW_ODO1: 145840
     BMW_ODO2: 145840
-- response: |-
-    660F1100B62D10D0003
-    660F12107D3000307D3
-  expected_values:
+  response: |-
+    660F1100B62D10D0002
+    660F12139B0000239B0
+- expected_values:
+    BMW_ODO1: 190205
+    BMW_ODO2: 190205
+  response: |-
+    660F1100B62D10D0002
+    660F121E6FD0002E6FD
+- expected_values:
     BMW_ODO1: 198611
     BMW_ODO2: 198611
-- response: |-
+  response: |-
     660F1100B62D10D0003
-    660F1210EFB00030EFB
-  expected_values:
-    BMW_ODO1: 200443
-    BMW_ODO2: 200443
-- response: |-
-    660F1100B62D10D0004
-    660F121563400045634
-  expected_values:
+    660F12107D3000307D3
+- expected_values:
+    BMW_ODO1: 200615
+    BMW_ODO2: 200615
+  response: |-
+    660F1100B62D10D0003
+    660F1210FA700030FA7
+- expected_values:
+    BMW_ODO1: 201028
+    BMW_ODO2: 201028
+  response: |-
+    660F1100B62D10D0003
+    660F121114400031144
+- expected_values:
     BMW_ODO1: 284212
     BMW_ODO2: 284212
+  response: |-
+    660F1100B62D10D0004
+    660F121563400045634

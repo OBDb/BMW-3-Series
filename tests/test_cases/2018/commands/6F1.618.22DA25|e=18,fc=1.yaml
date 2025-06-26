@@ -1,5 +1,29 @@
 command_id: 6F1.618.22DA25|e=18,fc=1
 test_cases:
-- response: 618F10562DA25009F
-  expected_values:
+- expected_values:
     BMW_EOT: 0
+  response: 618F10562DA250057
+- expected_values:
+    BMW_EOT: 0
+  response: 618F10562DA25005E
+- expected_values:
+    BMW_EOT: 0
+  response: 618F10562DA250060
+- expected_values:
+    BMW_EOT: 0
+  response: 618F10562DA250061
+- expected_values:
+    BMW_EOT: 0
+  response: 618F10562DA250063
+- expected_values:
+    BMW_EOT: 0
+  response: 618F10562DA250064
+- expected_values:
+    BMW_EOT: 0
+  response: 618F10562DA250066
+- expected_values:
+    BMW_EOT: 0
+  response: 618F10562DA250069
+- expected_values:
+    BMW_EOT: 0
+  response: 618F10562DA25009F

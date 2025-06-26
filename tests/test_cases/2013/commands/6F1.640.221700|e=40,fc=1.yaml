@@ -1,27 +1,37 @@
 command_id: 6F1.640.221700|e=40,fc=1
 test_cases:
-- response: |-
+- expected_values:
+    BMW_ODO_2: 145835
+  response: |-
     640F110076217000002
     640F12139ABFFFFFFFF
-  expected_values:
-    BMW_ODO_2: 145835
-- response: |-
+- expected_values:
+    BMW_ODO_2: 190196
+  response: |-
+    640F110076217000002
+    640F121E6F4FFFFFFFF
+- expected_values:
+    BMW_ODO_2: 198645
+  response: |-
     640F110076217000003
     640F12107F5FFFFFFFF
-  expected_values:
-    BMW_ODO_2: 198645
-- response: |-
-    640F110076217000003
-    640F121087EFFFFFFFF
-  expected_values:
-    BMW_ODO_2: 198782
-- response: |-
+- expected_values:
+    BMW_ODO_2: 199584
+  response: |-
     640F110076217000003
     640F1210BA0FFFFFFFF
-  expected_values:
-    BMW_ODO_2: 199584
-- response: |-
+- expected_values:
+    BMW_ODO_2: 200596
+  response: |-
     640F110076217000003
-    640F1210EF8FFFFFFFF
-  expected_values:
-    BMW_ODO_2: 200440
+    640F1210F94FFFFFFFF
+- expected_values:
+    BMW_ODO_2: 201025
+  response: |-
+    640F110076217000003
+    640F1211141FFFFFFFF
+- expected_values:
+    BMW_ODO_2: 201039
+  response: |-
+    640F110076217000003
+    640F121114FFFFFFFFF

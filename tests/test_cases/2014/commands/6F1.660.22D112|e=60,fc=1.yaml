@@ -1,0 +1,14 @@
+command_id: 6F1.660.22D112|e=60,fc=1
+test_cases:
+- expected_values:
+    BMW_AAT: 22.5
+  response: 660F10562D1127D84
+- expected_values:
+    BMW_AAT: 23
+  response: 660F10562D1127E81
+- expected_values:
+    BMW_AAT: 40
+  response: 660F10562D112A0B3
+- expected_values:
+    BMW_AAT: 40
+  response: 660F10562D112A0B4

@@ -1,17 +1,20 @@
 command_id: 6F1.618.22DA22|e=18,fc=1
 test_cases:
-- response: 618F10562DA220000
-  expected_values:
+- expected_values:
     BMW_TQ_CNVRT_LOCKUP: OPEN
-- response: 618F10562DA220001
-  expected_values:
+  response: 618F10562DA220000
+- expected_values:
     BMW_TQ_CNVRT_LOCKUP: CONTROL_LOW
-- response: 618F10562DA220002
-  expected_values:
+  response: 618F10562DA220001
+- expected_values:
     BMW_TQ_CNVRT_LOCKUP: CONTROL_HIGH
-- response: 618F10562DA220003
-  expected_values:
+  response: 618F10562DA220002
+- expected_values:
     BMW_TQ_CNVRT_LOCKUP: CLOSED_LOW
-- response: 618F10562DA220004
-  expected_values:
+  response: 618F10562DA220003
+- expected_values:
     BMW_TQ_CNVRT_LOCKUP: CLOSED_HIGH
+  response: 618F10562DA220004
+- expected_values:
+    BMW_TQ_CNVRT_LOCKUP: TRANSITION_OPEN
+  response: 618F10562DA220008

@@ -11,8 +11,8 @@ test_cases:
     22586F1
     612F10562586F0A53
 - expected_values:
-    BMW_EOP: 4
-  response: 612F10562586F0408
+    BMW_EOP: 3
+  response: 612F10562586F03D7
 - expected_values:
     BMW_EOP: 12
   response: 612F10562586F0CFF

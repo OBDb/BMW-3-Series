@@ -1,0 +1,5 @@
+command_id: 6F1.618.22DA1F|e=18,fc=1
+test_cases:
+- expected_values:
+    BMW_KICKDOWN: 0
+  response: 618F10562DA1F0000

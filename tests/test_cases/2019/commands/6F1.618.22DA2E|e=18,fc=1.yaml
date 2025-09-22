@@ -1,0 +1,18 @@
+command_id: 6F1.618.22DA2E|e=18,fc=1
+test_cases:
+- expected_values:
+    BMW_GEAR: 1
+    BMW_GEAR_SHIFT: REVERSE
+  response: 618F10562DA2E0101
+- expected_values:
+    BMW_GEAR: 7
+  response: 618F10562DA2E0703
+- expected_values:
+    BMW_GEAR: 8
+  response: 618F10562DA2E0803
+- expected_values:
+    BMW_GEAR: 9
+  response: 618F10562DA2E0903
+- expected_values:
+    BMW_GEAR: 16
+  response: 618F10562DA2E1003

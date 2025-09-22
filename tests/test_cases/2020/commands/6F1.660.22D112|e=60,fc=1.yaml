@@ -6,14 +6,14 @@ test_cases:
     22D1121
     660F10562D1128D8D
 - expected_values:
-    BMW_AAT: 14.5
-  response: 660F10562D1126D6D
+    BMW_AAT: 14
+  response: 660F10562D1126C6C
 - expected_values:
-    BMW_AAT: 17
-  response: 660F10562D1127273
+    BMW_AAT: 15
+  response: 660F10562D1126E6E
 - expected_values:
     BMW_AAT: 32
   response: 660F10562D11290B4
 - expected_values:
-    BMW_AAT: 36.5
-  response: 660F10562D112999A
+    BMW_AAT: 41.5
+  response: 660F10562D112A3A4

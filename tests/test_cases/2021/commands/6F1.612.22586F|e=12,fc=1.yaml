@@ -1,0 +1,8 @@
+command_id: 6F1.612.22586F|e=12,fc=1
+test_cases:
+- expected_values:
+    BMW_EOP: 70
+  response: 612F10462586F46
+- expected_values:
+    BMW_EOP: 200
+  response: 612F10462586FC8

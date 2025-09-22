@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     BMW_VSS2: 0
   response: 612F105624AB10000
+- expected_values:
+    BMW_VSS2: 18.56
+  response: 612F105624AB10740

@@ -1,0 +1,14 @@
+command_id: 7E0.012C
+test_cases:
+- expected_values:
+    EGR_PCT: 0
+  response: 7E803412C00
+- expected_values:
+    EGR_PCT: 36.47059
+  response: 7E803412C5D
+- expected_values:
+    EGR_PCT: 75.68627
+  response: 7E803412CC1
+- expected_values:
+    EGR_PCT: 76.47059
+  response: 7E803412CC3

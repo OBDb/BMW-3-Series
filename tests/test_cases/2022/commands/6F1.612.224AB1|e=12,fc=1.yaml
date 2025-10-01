@@ -4,8 +4,8 @@ test_cases:
     BMW_VSS2: 0
   response: 612F105624AB10000
 - expected_values:
-    BMW_VSS2: 20.46
-  response: 612F105624AB107FE
+    BMW_VSS2: 10.23
+  response: 612F105624AB103FF
 - expected_values:
-    BMW_VSS2: 123.22
-  response: 612F105624AB13022
+    BMW_VSS2: 133.72
+  response: 612F105624AB1343C

@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     BMW_TQ_CNVRT_LOCKUP: CLOSED_HIGH
   response: 618F10562DA220004
+- expected_values:
+    BMW_TQ_CNVRT_LOCKUP: TRANSITION_OPEN
+  response: 618F10562DA220008

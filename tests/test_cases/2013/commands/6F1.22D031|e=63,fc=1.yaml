@@ -1,4 +1,4 @@
-command_id: 6F1.663.22D031|e=63,fc=1
+command_id: 6F1.22D031|e=63,fc=1
 test_cases:
 - expected_values:
     BMW_GEAR_V2: 0
@@ -9,6 +9,12 @@ test_cases:
 - expected_values:
     BMW_GEAR_V2: 2
   response: 663F10562D0310200
+- expected_values:
+    BMW_GEAR_V2: 3
+  response: 663F10562D0310300
+- expected_values:
+    BMW_GEAR_V2: 254
+  response: 663F10562D031FE00
 - expected_values:
     BMW_GEAR_V2: 255
   response: 663F10562D031FF00

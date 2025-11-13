@@ -1,9 +1,9 @@
 command_id: 6F1.618.22DA37|e=18,fc=1
 test_cases:
 - expected_values:
-    BMW_TIME_D: 255
-    BMW_TIME_M: 111
-    BMW_TIME_S: 250
+    3SERIES_TIME_D: 255.0
+    3SERIES_TIME_M: 111.0
+    3SERIES_TIME_S: 250.0
   response: |-
     618F1100F62DA37FFFA
     618F1216F08FFFA6F0C

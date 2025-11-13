@@ -1,20 +1,20 @@
 command_id: 6F1.22D031|e=63,fc=1
 test_cases:
 - expected_values:
-    BMW_GEAR_V2: 0
+    3SERIES_GEAR_V2: 0
   response: 663F10562D0310000
 - expected_values:
-    BMW_GEAR_V2: 1
+    3SERIES_GEAR_V2: 1.0
   response: 663F10562D0310100
 - expected_values:
-    BMW_GEAR_V2: 2
+    3SERIES_GEAR_V2: 2.0
   response: 663F10562D0310200
 - expected_values:
-    BMW_GEAR_V2: 3
+    3SERIES_GEAR_V2: 3.0
   response: 663F10562D0310300
 - expected_values:
-    BMW_GEAR_V2: 254
+    3SERIES_GEAR_V2: 254.0
   response: 663F10562D031FE00
 - expected_values:
-    BMW_GEAR_V2: 255
+    3SERIES_GEAR_V2: 255.0
   response: 663F10562D031FF00

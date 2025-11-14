@@ -129,8 +129,12 @@
 {"hdr": "7DF", "rax": "7E8", "cmd": { "01": "8B" },  "freq": 5, "dbgfilter": { "to": 2012, "years": [2015], "from": 2023 },
   "signals": [
     {"id": "3SERIES_SOOT",      "path": "Emissions", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2.55, "unit": "percent"}, "name": "DPF Soot Load"},
-    {"id": "3SERIES_DPF_REGEN", "path": "Emissions", "fmt": {"bix": 24, "len": 8, "max": 2,                "unit": "scalar"},  "name": "DPF Regen State"}  
-
+    {"id": "3SERIES_DPF_REGEN", "path": "Emissions", "name": "DPF Regen State", "fmt": {"bix": 24, "len": 8, "map": {
+          "0": { "description": "No Regeneration",      "value": "NONE" },
+          "1": { "description": "Passive Regeneration", "value": "PASSIVE" },
+          "2": { "description": "Active Regeneration",  "value": "ACTIVE" }
+        }}
+    }
   ]},
 {"hdr": "7DF", "rax": "7EC", "cmd": { "01": "9B" },  "freq": 15, "dbgfilter": { "to": 2012, "years": [2015], "from": 2023 },
   "signals": [

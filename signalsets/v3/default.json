@@ -132,9 +132,9 @@
     {"id": "3SERIES_DPF_REGEN", "path": "Emissions", "fmt": {"bix": 24, "len": 8, "max": 2,                "unit": "scalar"},  "name": "DPF Regen State"}  
 
   ]},
-{"hdr": "7DF", "rax": "7E8", "cmd": { "01": "9B" },  "freq": 15, "dbgfilter": { "to": 2012, "years": [2015], "from": 2023 },
+{"hdr": "7DF", "rax": "7EC", "cmd": { "01": "9B" },  "freq": 15, "dbgfilter": { "to": 2012, "years": [2015], "from": 2023 },
   "signals": [
-    {"id": "3SERIES_DEF_LEVEL", "path": "Emissions", "fmt": {"bix": 8, "len": 8, "max": 100, "div": 2.55, "unit": "percent"}, "name": "DEF (AdBlue) Level"}
+    {"id": "3SERIES_DEF_LEVEL", "path": "Emissions", "fmt": {"bix": 8, "len": 8, "max": 100, "div": 2, "unit": "percent"}, "name": "DEF (AdBlue) Level"}
   ]},  
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
   "signals": [

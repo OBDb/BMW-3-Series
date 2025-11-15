@@ -7,5 +7,5 @@ test_cases:
     BMW_VSS: 50.2
   response: 660F10562D10701F6
 - expected_values:
-    BMW_VSS: 77.1
-  response: 660F10562D1070303
+    BMW_VSS: 110.9
+  response: 660F10562D1070455

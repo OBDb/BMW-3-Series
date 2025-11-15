@@ -64,7 +64,7 @@
     {"id": "3SERIES_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
     {"id": "3SERIES_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 30, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
   "signals": [
     {"id": "3SERIES_GEAR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"},
     {"id": "3SERIES_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {

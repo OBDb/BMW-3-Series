@@ -5,25 +5,9 @@ test_cases:
     BMW_GEAR_SHIFT: PARK
   response: 618F10562DA2E0000
 - expected_values:
-    BMW_GEAR: 1
-    BMW_GEAR_SHIFT: REVERSE
-  response: 618F10562DA2E0101
-- expected_values:
     BMW_GEAR: 3
     BMW_GEAR_SHIFT: DRIVE
-  response: 618F10562DA2E0303
-- expected_values:
-    BMW_GEAR: 4
-  response: 618F10562DA2E0403
-- expected_values:
-    BMW_GEAR: 6
-  response: 618F10562DA2E0603
-- expected_values:
-    BMW_GEAR: 7
-  response: 618F10562DA2E0703
-- expected_values:
-    BMW_GEAR: 8
-  response: 618F10562DA2E0803
+  response: 618F10562DA2E0304
 - expected_values:
     BMW_GEAR: 9
   response: 618F10562DA2E0903

@@ -124,6 +124,7 @@ supported_commands_by_ecu:
   - 0161:TQ_DD
   - 0162:TQ_ACT
   - 7E4.7EC.0101
+  - 7E4.7EC.0105
   - 7E4.7EC.010D
   - 7E4.7EC.0111
   - 7E4.7EC.011F

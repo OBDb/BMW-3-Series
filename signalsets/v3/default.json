@@ -126,7 +126,7 @@
     {"id": "3SERIES_RANGE_E_USE", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 65.535, "div": 1000, "nullmin": 0, "nullmax": 65,   "unit": "kilowattHours" }, "name": "Electric consumption / 100km"},
     {"id": "3SERIES_AUX_PWR",     "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 655.35, "div": 100,                "nullmax": 655,  "unit": "kilowatts"     }, "name": "Auxiliary power consumption"}
   ]},
-{"hdr": "7DF", "rax": "7E8", "cmd": { "01": "8B" },  "freq": 5, "dbgfilter": { "to": 2012, "years": [2015], "from": 2023 },
+{"hdr": "7DF", "rax": "7E8", "cmd": { "01": "8B" },  "freq": 5,
   "signals": [
     {"id": "3SERIES_SOOT",      "path": "Emissions", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2.55, "unit": "percent"}, "name": "DPF Soot Load"},
     {"id": "3SERIES_DPF_REGEN", "path": "Emissions", "name": "DPF Regen State", "fmt": {"bix": 24, "len": 8, "map": {
@@ -136,10 +136,42 @@
         }}
     }
   ]},
-{"hdr": "7DF", "rax": "7EC", "cmd": { "01": "9B" },  "freq": 15, "dbgfilter": { "to": 2012, "years": [2015], "from": 2023 },
+{"hdr": "7DF", "rax": "7EC", "cmd": { "01": "9B" },  "freq": 15,
   "signals": [
     {"id": "3SERIES_DEF_LEVEL", "path": "Emissions", "fmt": {"bix": 8, "len": 8, "max": 100, "div": 2, "unit": "percent"}, "name": "DEF (AdBlue) Level"}
-  ]},  
+  ]},
+{"hdr": "7DF", "rax": "7E8", "cmd": { "01": "2F" },  "freq": 15,
+  "signals": [
+    {"id": "3SERIES_FUEL_TANK", "path": "Engine", "fmt": {"len": 8, "min": 0, "max": 100, "mul": 100, "div": 255, "unit": "percent"}, "suggestedMetric": "fuelTankLevel", "name": "Fuel tank level #1"}
+  ]}, 
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "583B"}, "freq": 15,
+  "signals": [
+    {"id": "3SERIES_FUEL_TANK2", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel tank level #2"}
+  ]},
+{"hdr": "7DF", "rax": "7E8", "cmd": { "01": "5C" },  "freq": 15, 
+  "signals": [
+    {"id": "3SERIES_EOT2", "path": "Engine", "fmt": {"len": 8, "min": -40, "max": 215, "add": -40, "unit": "celsius"}, "name": "Engine oil temperature #2"}
+  ]}, 
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4402"}, "freq": 30,
+  "signals": [
+    {"id": "3SERIES_4402", "path": "Engine", "fmt": { "len": 16, "max": 65535, "mul": 0.75, "add": -48, "unit": "scalar" }, "name": "Oil temperature after filter"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4408"}, "freq": 30,
+  "signals": [
+    {"id": "3SERIES_4408", "path": "Engine", "fmt": { "len": 16, "max": 32767, "div": 10, "sign": true, "unit": "scalar" }, "name": "Oil temperature unfiltered"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "442C"}, "freq": 30,
+  "signals": [
+    {"id": "3SERIES_442C", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Raw value oil level"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4436"}, "freq": 30,
+  "signals": [
+    {"id": "3SERIES_4436", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Actual oil pressure value (absolute pressure)"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4650"}, "freq": 30,
+  "signals": [
+    {"id": "3SERIES_4650", "path": "Engine", "fmt": { "len": 8, "max": 255, "mul": 0.75, "add": -48, "unit": "scalar" }, "name": "Transmission temperature"}
+  ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
   "signals": [
     {"id": "3SERIES_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}

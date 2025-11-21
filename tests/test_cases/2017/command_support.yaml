@@ -22,6 +22,7 @@ supported_commands_by_ecu:
   - 6F1.660.22D112|e=60,fc=1:BMW_AAT
   - 6F1.663.22D031
   "7DF":
+  - 7DF.0103
   - 7DF.0106
   - 7DF.0110
   - 7DF.011C
@@ -99,7 +100,9 @@ supported_commands_by_ecu:
   - 7E1.7E9.0104
   - 7E1.7E9.0105
   - 7E1.7E9.010D
+  - 7E1.7E9.011C
   - 7E1.7E9.0121
+  - 7E1.7E9.0130
   - 7E1.7E9.0131
   - 7E1.7E9.0141
   - 7E1.7E9.0142

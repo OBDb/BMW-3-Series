@@ -1,0 +1,10 @@
+command_id: 6F1.607.22DF71|e=07,fc=1
+test_cases:
+- expected_values:
+    BMW_HVBAT_C_CNT: 96
+    BMW_HVBAT_C_CNT_MOD: 16
+    BMW_HVBAT_MOD_CNT: 6
+    BMW_HVBAT_MOD_T_CNT: 3
+  response: |-
+    607F1100862DF710060
+    607F121100603FFFFFF

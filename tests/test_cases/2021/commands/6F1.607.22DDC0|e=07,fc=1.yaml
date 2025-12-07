@@ -1,47 +1,59 @@
 command_id: 6F1.607.22DDC0|e=07,fc=1
 test_cases:
 - expected_values:
+    BMW_HVBAT_CT_MAX: 10
+    BMW_HVBAT_CT_MIN: 9
+  response: |-
+    607F1100A62DDC00384
+    607F12103E803C601FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 10.33
+    BMW_HVBAT_CT_MIN: 9.34
+  response: |-
+    607F1100A62DDC003A6
+    607F121040903FF01FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 10.27
+    BMW_HVBAT_CT_MIN: 9.97
+  response: |-
+    607F1100A62DDC003E5
+    607F1210403040001FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 10.24
+    BMW_HVBAT_CT_MIN: 10.15
+  response: |-
+    607F1100A62DDC003F7
+    607F121040003FF01FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 11.2
+    BMW_HVBAT_CT_MIN: 10.2
+  response: |-
+    607F1100A62DDC003FC
+    607F1210460040401FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 11.99
+    BMW_HVBAT_CT_MIN: 10.99
+  response: |-
+    607F1100A62DDC0044B
+    607F12104AF047201FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 13.48
+    BMW_HVBAT_CT_MIN: 12.81
+  response: |-
+    607F1100A62DDC00501
+    607F1210544053601FF
+- expected_values:
+    BMW_HVBAT_CT_MAX: 13.55
+    BMW_HVBAT_CT_MIN: 13.2
+  response: |-
+    607F1100A62DDC00528
+    607F121054B053C01FF
+- expected_values:
     BMW_HVBAT_CT_MAX: 17.99
     BMW_HVBAT_CT_MIN: 14.99
   response: |-
     607F1100A62DDC005DB
     607F1210707067701FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 18
-    BMW_HVBAT_CT_MIN: 14.99
-  response: |-
-    607F1100A62DDC005DB
-    607F1210708067701FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 18.01
-    BMW_HVBAT_CT_MIN: 14.99
-  response: |-
-    607F1100A62DDC005DB
-    607F1210709067701FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 18.02
-    BMW_HVBAT_CT_MIN: 14.99
-  response: |-
-    607F1100A62DDC005DB
-    607F121070A067701FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 18.05
-    BMW_HVBAT_CT_MIN: 15
-  response: |-
-    607F1100A62DDC005DC
-    607F121070D067701FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 18.05
-    BMW_HVBAT_CT_MIN: 15
-  response: |-
-    607F1100A62DDC005DC
-    607F121070D067801FF
-- expected_values:
-    BMW_HVBAT_CT_MAX: 18.06
-    BMW_HVBAT_CT_MIN: 15
-  response: |-
-    607F1100A62DDC005DC
-    607F121070E067801FF
 - expected_values:
     BMW_HVBAT_CT_MAX: 18.09
     BMW_HVBAT_CT_MIN: 15

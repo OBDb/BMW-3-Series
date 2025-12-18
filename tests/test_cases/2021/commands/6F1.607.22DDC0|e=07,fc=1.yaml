@@ -7,6 +7,12 @@ test_cases:
     607F1100A62DDC002BF
     607F1210322031201FF
 - expected_values:
+    BMW_HVBAT_CT_MAX: 11.04
+    BMW_HVBAT_CT_MIN: 9.04
+  response: |-
+    607F1100A62DDC00388
+    607F121045003E701FF
+- expected_values:
     BMW_HVBAT_CT_MAX: 11.2
     BMW_HVBAT_CT_MIN: 9.18
   response: |-

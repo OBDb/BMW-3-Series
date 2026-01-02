@@ -1,6 +1,11 @@
 command_id: 6F1.607.226335|e=07,fc=1
 test_cases:
 - expected_values:
+    BMW_HVBAT_SOH: 86
+  response: |-
+    607F110076263350000
+    607F1210056FFFFFFFF
+- expected_values:
     BMW_HVBAT_SOH: 90
   response: |-
     607F110076263350000

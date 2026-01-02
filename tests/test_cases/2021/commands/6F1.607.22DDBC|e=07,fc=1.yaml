@@ -28,3 +28,10 @@ test_cases:
   response: |-
     607F1100962DDBC0201
     607F121034D006EFFFF
+- expected_values:
+    BMW_HVBAT_SOC: 78.6
+    BMW_HVBAT_SOC_MAX: 84
+    BMW_HVBAT_SOC_MIN: 11
+  response: |-
+    607F1100962DDBC0312
+    607F1210348006EFFFF

@@ -1,0 +1,17 @@
+command_id: 6F1.60D.22D240|e=0D,fc=1,f=2012-
+test_cases:
+- expected_values:
+    3SERIES_VSS_INSTR: 0
+  response: 60DF10562D2400000
+- expected_values:
+    3SERIES_VSS_INSTR: 26
+  response: 60DF10562D240001A
+- expected_values:
+    3SERIES_VSS_INSTR: 70
+  response: 60DF10562D2400046
+- expected_values:
+    3SERIES_VSS_INSTR: 77
+  response: 60DF10562D240004D
+- expected_values:
+    3SERIES_VSS_INSTR: 82
+  response: 60DF10562D2400052

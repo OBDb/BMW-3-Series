@@ -1,0 +1,37 @@
+command_id: 6F1.618.22DA23|e=18,fc=1,f=2012-
+test_cases:
+- expected_values:
+    3SERIES_ODO_LOWRES: 26768
+  response: |-
+    618F1100762DA230000
+    618F1210D12FFFFFFFF
+- expected_values:
+    3SERIES_ODO_LOWRES: 26808
+  response: |-
+    618F1100762DA230000
+    618F1210D17FFFFFFFF
+- expected_values:
+    3SERIES_ODO_LOWRES: 26816
+  response: |-
+    618F1100762DA230000
+    618F1210D18FFFFFFFF
+- expected_values:
+    3SERIES_ODO_LOWRES: 26824
+  response: |-
+    618F1100762DA230000
+    618F1210D19FFFFFFFF
+- expected_values:
+    3SERIES_ODO_LOWRES: 26840
+  response: |-
+    618F1100762DA230000
+    618F1210D1BFFFFFFFF
+- expected_values:
+    3SERIES_ODO_LOWRES: 26880
+  response: |-
+    618F1100762DA230000
+    618F1210D20FFFFFFFF
+- expected_values:
+    3SERIES_ODO_LOWRES: 50656
+  response: |-
+    618F1100762DA230000
+    618F12118BCFFFFFFFF

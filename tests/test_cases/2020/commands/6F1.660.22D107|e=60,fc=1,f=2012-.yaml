@@ -1,0 +1,29 @@
+command_id: 6F1.660.22D107|e=60,fc=1,f=2012-
+test_cases:
+- expected_values:
+    3SERIES_VSS: 0
+  response: "22D1071\n660 F1 05 62 D1 07 00 00 "
+- expected_values:
+    3SERIES_VSS: 0
+  response: |-
+    22D1071
+    660F10562D1070000
+- expected_values:
+    3SERIES_VSS: 45.8
+  response: |-
+    22D1071
+    660F10562D10701CA
+- expected_values:
+    3SERIES_VSS: 46.7
+  response: |-
+    22D1071
+    660F10562D10701D3
+- expected_values:
+    3SERIES_VSS: 0
+  response: 660F10562D1070000
+- expected_values:
+    3SERIES_VSS: 51.1
+  response: 660F10562D10701FF
+- expected_values:
+    3SERIES_VSS: 211.5
+  response: 660F10562D1070843

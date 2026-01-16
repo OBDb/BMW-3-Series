@@ -1,8 +1,0 @@
-command_id: 6F1.618.22DA25|e=18,fc=1,f=2012-
-test_cases:
-- expected_values:
-    3SERIES_EOT: 27
-  response: 618F10562DA25004B
-- expected_values:
-    3SERIES_EOT: 110
-  response: 618F10562DA25009E

@@ -7,6 +7,9 @@ test_cases:
     3SERIES_TQ_CNVRT_LOCKUP: CONTROL_LOW
   response: 618F10562DA220001
 - expected_values:
+    3SERIES_TQ_CNVRT_LOCKUP: CONTROL_HIGH
+  response: 618F10562DA220002
+- expected_values:
     3SERIES_TQ_CNVRT_LOCKUP: CLOSED_LOW
   response: 618F10562DA220003
 - expected_values:

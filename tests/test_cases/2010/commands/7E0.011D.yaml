@@ -1,0 +1,12 @@
+command_id: 7E0.011D
+test_cases:
+- expected_values:
+    O2S11_EXISTS: 1
+    O2S12_EXISTS: 0
+    O2S21_EXISTS: 0
+    O2S22_EXISTS: 0
+    O2S31_EXISTS: 0
+    O2S32_EXISTS: 0
+    O2S41_EXISTS: 0
+    O2S42_EXISTS: 0
+  response: 7E803411D01

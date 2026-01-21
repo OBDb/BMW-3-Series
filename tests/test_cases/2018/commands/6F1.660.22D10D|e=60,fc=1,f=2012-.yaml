@@ -42,3 +42,9 @@ test_cases:
   response: |-
     660F1100B62D10D0001
     660F121CB490001CB49
+- expected_values:
+    3SERIES_ODO: 122129
+    3SERIES_ODO_ALT: 122129
+  response: |-
+    660F1100B62D10D0001
+    660F121DD110001DD11

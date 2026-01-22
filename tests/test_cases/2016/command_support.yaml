@@ -110,6 +110,7 @@ supported_commands_by_ecu:
   - 7E0.0111:TP
   - 7E0.011C:OBDSUP
   - 7E0.0121:MIL_DIST
+  - 7E0.012F:FLI
   - 7E0.0130:WARM_UPS
   - 7E0.0131:CLR_DIST
   - 7E0.0133:BARO
@@ -182,7 +183,6 @@ unsupported_commands_by_ecu:
   - 7E0.011F:RUNTM
   - 7E0.0123:FRP
   - 7E0.012E:EVAP_PCT
-  - 7E0.012F:FLI
   - 7E0.013C:CATEMP11
   - 7E0.0143:LOAD_ABS
   - 7E0.0144:EQ_RAT

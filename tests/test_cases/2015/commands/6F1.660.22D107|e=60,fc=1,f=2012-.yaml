@@ -1,0 +1,20 @@
+command_id: 6F1.660.22D107|e=60,fc=1,f=2012-
+test_cases:
+- expected_values:
+    3SERIES_VSS: 0
+  response: 660F10562D1070000
+- expected_values:
+    3SERIES_VSS: 11.8
+  response: 660F10562D1070076
+- expected_values:
+    3SERIES_VSS: 12.1
+  response: 660F10562D1070079
+- expected_values:
+    3SERIES_VSS: 24.4
+  response: 660F10562D10700F4
+- expected_values:
+    3SERIES_VSS: 29.5
+  response: 660F10562D1070127
+- expected_values:
+    3SERIES_VSS: 39.4
+  response: 660F10562D107018A

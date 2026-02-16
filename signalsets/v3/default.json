@@ -11,15 +11,15 @@
   "signals": [
     {"id": "3SERIES_EOP", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015, 2019, 2020], "from": 2023 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA12"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "3SERIES_ATF_TEMP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA1F"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA1F"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_KICKDOWN", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "scalar" }, "name": "Kickdown"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA22"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA22"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_TQ_CNVRT_LOCKUP", "path": "Transmission", "name": "Torque converter lockup", "fmt": {"bix": 8, "len": 8, "map": {
           "0": { "description": "Open",               "value": "OPEN" },
@@ -31,20 +31,20 @@
         }}
     }
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA23"}, "freq": 15, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_ODO_LOWRES", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "mul": 8, "unit": "kilometers" }, "name": "Odometer, low resolution", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA25"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA25"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_EOT", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "add": -48, "sign": true, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2A"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2A"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
     {"id": "3SERIES_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
           "0": { "description": "Park",    "value": "PARK" },
@@ -59,7 +59,7 @@
         }}
     }
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015, 2019, 2020], "from": 2023 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA37"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2019, 2020], "from": 2023 },
   "signals": [
     {"id": "3SERIES_TIME_D", "path": "Engine", "fmt": {           "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in D"},
     {"id": "3SERIES_TIME_S", "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Time in S"},
@@ -70,7 +70,7 @@
     {"id": "3SERIES_AXLE_FRONT_ACTUAL_TORQUE",   "path": "Tires", "fmt": {           "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, actual torque"},
     {"id": "3SERIES_AXLE_FRONT_SETPOINT_TORQUE", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 8000, "min": -8000, "div": 4, "sign": true, "unit": "newtonMeters" }, "name": "Front axle, setpoint torque"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DBE4"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_FL_SPD", "path": "Movement", "fmt": {           "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
     {"id": "3SERIES_FR_SPD", "path": "Movement", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
@@ -88,16 +88,16 @@
     {"id": "3SERIES_REAR_WINDOW",         "path": "Windows", "fmt": {"bix": 48, "len": 8, "max": 255, "unit": "scalar" }, "name": "Rear window open"},
     {"id": "3SERIES_CENTRAL_LOCK",        "path": "Doors",   "fmt": {"bix": 56, "len": 8, "max": 255, "unit": "scalar" }, "name": "Locked",                   "description": "Overall lock state of the vehicle"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D107"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_VSS", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Speedometer vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D10D"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_ODO",     "path": "Trips", "fmt": {           "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer",              "suggestedMetric": "odometer"},
     {"id": "3SERIES_ODO_ALT", "path": "Trips", "fmt": {"bix": 32, "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, alternative", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "years": [2015], "from": 2026 },
+{ "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "filter": { "from": 2012 }, "dbgfilter": { "to": 2012, "from": 2026 },
   "signals": [
     {"id": "3SERIES_AAT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]}

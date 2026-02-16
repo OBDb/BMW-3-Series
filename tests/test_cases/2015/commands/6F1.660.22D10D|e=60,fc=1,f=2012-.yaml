@@ -1,0 +1,8 @@
+command_id: 6F1.660.22D10D|e=60,fc=1,f=2012-
+test_cases:
+- expected_values:
+    3SERIES_ODO: 136237
+    3SERIES_ODO_ALT: 136237
+  response: |-
+    660F1100B62D10D0002
+    660F121142D0002142D

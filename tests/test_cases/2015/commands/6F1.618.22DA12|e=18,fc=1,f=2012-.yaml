@@ -1,0 +1,20 @@
+command_id: 6F1.618.22DA12|e=18,fc=1,f=2012-
+test_cases:
+- expected_values:
+    3SERIES_ATF_TEMP: 0
+  response: 618F10562DA120060
+- expected_values:
+    3SERIES_ATF_TEMP: 0
+  response: 618F10562DA120063
+- expected_values:
+    3SERIES_ATF_TEMP: 0
+  response: 618F10562DA120064
+- expected_values:
+    3SERIES_ATF_TEMP: 0
+  response: 618F10562DA120065
+- expected_values:
+    3SERIES_ATF_TEMP: 0
+  response: 618F10562DA120067
+- expected_values:
+    3SERIES_ATF_TEMP: 0
+  response: 618F10562DA120069

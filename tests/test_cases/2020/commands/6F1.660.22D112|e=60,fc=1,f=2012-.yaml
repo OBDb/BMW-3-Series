@@ -6,8 +6,8 @@ test_cases:
     22D1121
     660F10562D1128D8D
 - expected_values:
-    3SERIES_AAT: 14
-  response: 660F10562D1126C6C
+    3SERIES_AAT: 10
+  response: 660F10562D1126464
 - expected_values:
     3SERIES_AAT: 15
   response: 660F10562D1126E6E

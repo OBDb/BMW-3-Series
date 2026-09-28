@@ -31,6 +31,11 @@ test_cases:
     618F1100762DA230000
     618F1210D20FFFFFFFF
 - expected_values:
+    3SERIES_ODO_LOWRES: 49904
+  response: |-
+    618F1100762DA230000
+    618F121185EFFFFFFFF
+- expected_values:
     3SERIES_ODO_LOWRES: 50656
   response: |-
     618F1100762DA230000

@@ -4,8 +4,5 @@ test_cases:
     3SERIES_AAT: 5
   response: 660F10562D1125A5A
 - expected_values:
-    3SERIES_AAT: 15
-  response: 660F10562D1126E8B
-- expected_values:
-    3SERIES_AAT: 20.5
-  response: 660F10562D1127979
+    3SERIES_AAT: 36.5
+  response: 660F10562D112999E

@@ -4,8 +4,8 @@ test_cases:
     3SERIES_EOP: 3
   response: 612F10562586F03CB
 - expected_values:
-    3SERIES_EOP: 4
-  response: 612F10562586F0413
+    3SERIES_EOP: 11
+  response: 612F10562586F0B0D
 - expected_values:
     3SERIES_EOP: 11
   response: 612F10562586F0BF3

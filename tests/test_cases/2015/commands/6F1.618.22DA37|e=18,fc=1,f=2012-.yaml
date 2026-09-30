@@ -2,6 +2,14 @@ command_id: 6F1.618.22DA37|e=18,fc=1,f=2012-
 test_cases:
 - expected_values:
     3SERIES_TIME_D: 0
+    3SERIES_TIME_M: 52
+    3SERIES_TIME_S: 2
+  response: |-
+    618F1100F62DA370002
+    618F121344C00000DB2
+    618F122000002DDFFFF
+- expected_values:
+    3SERIES_TIME_D: 0
     3SERIES_TIME_M: 187
     3SERIES_TIME_S: 27
   response: |-
@@ -48,3 +56,11 @@ test_cases:
     618F1100F62DA37001B
     618F121BC1D000001CB
     618F12200000060FFFF
+- expected_values:
+    3SERIES_TIME_D: 0
+    3SERIES_TIME_M: 76
+    3SERIES_TIME_S: 231
+  response: |-
+    618F1100F62DA3700E7
+    618F1214CFA0001395E
+    618F122000034E7FFFF

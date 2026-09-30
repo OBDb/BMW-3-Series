@@ -97,17 +97,25 @@
   "signals": [
     {"id": "3SERIES_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2016 },
+  "signals": [
+    {"id": "3SERIES_ET_8", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
     {"id": "3SERIES_ET", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "3SERIES_EOT_6F1", "path": "Engine", "fmt": { "len": 8, "max": 195, "min": -60, "add": -60, "unit": "celsius" }, "name": "Engine oil temperature"}
+    {"id": "3SERIES_EOT_6F1", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4408"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4408"}, "freq": 5, "filter": { "to": 2018 }, "dbgfilter": { "to": 2015, "years": [2017] },
   "signals": [
-    {"id": "3SERIES_EOT_DME", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "3SERIES_EOT_DME", "path": "Engine", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4408"}, "freq": 5, "filter": { "from": 2019 }, "dbgfilter": { "years": [2020], "from": 2022 },
+  "signals": [
+    {"id": "3SERIES_EOT_DME_K", "path": "Engine", "fmt": { "len": 16, "max": 382.2, "min": -273.15, "div": 100, "add": -273.15, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "442C"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
@@ -193,9 +201,9 @@
   "signals": [
     {"id": "3SERIES_CAT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 30, "filter": { "from": 2012 }, "dbgfilter": { "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "586F"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "from": 2026 },
   "signals": [
-    {"id": "3SERIES_EOP", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Engine oil pressure"}
+    {"id": "3SERIES_EOP", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Engine oil pressure"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "5889"}, "freq": 1,
   "signals": [

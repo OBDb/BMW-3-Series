@@ -1,0 +1,49 @@
+command_id: 6F1.660.22D112|e=60,fc=1,f=2012-
+test_cases:
+- expected_values:
+    3SERIES_AAT: 10.5
+  response: |-
+    660F10562D1070000
+    660F10562D112656C
+- expected_values:
+    3SERIES_AAT: 8.5
+  response: |-
+    660F10562D107019C
+    660F10562D1126165
+- expected_values:
+    3SERIES_AAT: 8.5
+  response: |-
+    660F10562D107025A
+    660F10562D112616A
+- expected_values:
+    3SERIES_AAT: 2.5
+  response: 660F10562D112555A
+- expected_values:
+    3SERIES_AAT: 3
+  response: 660F10562D1125658
+- expected_values:
+    3SERIES_AAT: 5
+  response: |-
+    660F10562D1125A5D
+    660F10562D1070143
+    660F1100B62D10D0003
+    660F121343600033436
+    660F10562D1125A5D
+- expected_values:
+    3SERIES_AAT: 13
+  response: 660F10562D1126A86
+- expected_values:
+    3SERIES_AAT: 13.5
+  response: 660F10562D1126B6B
+- expected_values:
+    3SERIES_AAT: 10.5
+  response: |-
+    660F1100B62D10D0003
+    660F12133A2000333A2
+    660F10562D112656C
+- expected_values:
+    3SERIES_AAT: 6
+  response: |-
+    660F1100B62D10D0003
+    660F121341B0003341B
+    660F10562D1125C5C

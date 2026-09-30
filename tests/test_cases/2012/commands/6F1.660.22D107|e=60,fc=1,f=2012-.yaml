@@ -1,0 +1,57 @@
+command_id: 6F1.660.22D107|e=60,fc=1,f=2012-
+test_cases:
+- expected_values:
+    3SERIES_VSS: 0
+  response: 660F10562D1070000
+- expected_values:
+    3SERIES_VSS: 76.4
+  response: 660F10562D10702FC
+- expected_values:
+    3SERIES_VSS: 103.2
+  response: 660F10562D1070408
+- expected_values:
+    3SERIES_VSS: 0
+  response: |-
+    660F10562D112656A
+    660F10562D1070000
+- expected_values:
+    3SERIES_VSS: 16
+  response: |-
+    660F10562D1126769
+    660F10562D10700A0
+- expected_values:
+    3SERIES_VSS: 0
+  response: |-
+    660F10562D1126973
+    660F10562D1070000
+- expected_values:
+    3SERIES_VSS: 0
+  response: |-
+    660F1100B62D10D0003
+    660F12133A2000333A2
+    660F10562D1070000
+- expected_values:
+    3SERIES_VSS: 0
+  response: |-
+    660F1100B62D10D0003
+    660F12133A2000333A2
+    660F10562D112656F
+    660F10562D1070000
+- expected_values:
+    3SERIES_VSS: 42.8
+  response: |-
+    660F1100B62D10D0003
+    660F12133EE000333EE
+    660F10562D10701AC
+- expected_values:
+    3SERIES_VSS: 0
+  response: |-
+    660F1100B62D10D0003
+    660F121341000033410
+    660F10562D1070000
+- expected_values:
+    3SERIES_VSS: 0
+  response: |-
+    660F1100B62D10D0003
+    660F121343600033436
+    660F10562D1070000

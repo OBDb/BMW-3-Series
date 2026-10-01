@@ -135,6 +135,9 @@ test_cases:
     612F10562442C0000
     612F10562440882C4
 - expected_values:
+    3SERIES_EOT_6F1: 88
+  response: 612F10562440200B0
+- expected_values:
     3SERIES_EOT_6F1: 0
   response: |-
     612F10562440882DE

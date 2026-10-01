@@ -1,0 +1,11 @@
+command_id: 6F1.618.210A|e=18,fc=1
+test_cases:
+- expected_values:
+    3SERIES_ATF_T: -53
+  response: 618F103610A02
+- expected_values:
+    3SERIES_ATF_T: -52
+  response: 618F103610A03
+- expected_values:
+    3SERIES_ATF_T: -50
+  response: 618F103610A05

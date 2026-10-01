@@ -67,11 +67,11 @@
   "signals": [
     {"id": "3SERIES_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "400B"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "400B"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "3SERIES_LAMBDA", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 2, "div": 100, "unit": "scalar" }, "name": "Lambda 1, excess air ratio"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4015"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4015"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "3SERIES_IAT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 150, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
@@ -291,7 +291,7 @@
     {"id": "3SERIES_OBC_AC_I_2", "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 6553,              "div": 10,                "unit": "amps" }, "name": "Charger AC current, phase 2"},
     {"id": "3SERIES_OBC_AC_I_3", "path": "Engine", "fmt": {"bix": 96, "len": 16, "max": 6553,              "div": 10,                "unit": "amps" }, "name": "Charger AC current, phase 3"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "dbg": true, "cmd": {"21": "05"}, "freq": 0.25,
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"21": "05"}, "freq": 0.25, "dbgfilter": { "to": 2007, "from": 2009 },
   "signals": [
     {"id": "3SERIES_TURBINE_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "AT turbine speed"}
   ]},
@@ -299,7 +299,7 @@
   "signals": [
     {"id": "3SERIES_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "AT engine torque"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"21": "0A"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"21": "0A"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011], "from": 2013 },
   "signals": [
     {"id": "3SERIES_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},

@@ -1,0 +1,8 @@
+command_id: 6F1.612.224506|e=12,fc=1
+test_cases:
+- expected_values:
+    3SERIES_OIL_TEMP: -273.15
+  response: 612F1056245060000
+- expected_values:
+    3SERIES_OIL_TEMP: 411.15
+  response: 612F1056245061ABB

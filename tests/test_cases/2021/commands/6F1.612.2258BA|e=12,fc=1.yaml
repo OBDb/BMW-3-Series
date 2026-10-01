@@ -1,0 +1,5 @@
+command_id: 6F1.612.2258BA|e=12,fc=1
+test_cases:
+- expected_values:
+    3SERIES_CRANK_TQ: 0
+  response: 612F1056258BA0000

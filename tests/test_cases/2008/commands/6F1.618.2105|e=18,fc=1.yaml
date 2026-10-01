@@ -1,0 +1,11 @@
+command_id: 6F1.618.2105|e=18,fc=1
+test_cases:
+- expected_values:
+    3SERIES_TURBINE_SPD: 0
+  response: 618F10461050000
+- expected_values:
+    3SERIES_TURBINE_SPD: 6558
+  response: 618F1046105199E
+- expected_values:
+    3SERIES_TURBINE_SPD: 10523
+  response: 618F1046105291B

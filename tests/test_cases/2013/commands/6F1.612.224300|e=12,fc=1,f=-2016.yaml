@@ -6,3 +6,18 @@ test_cases:
 - expected_values:
     3SERIES_ET_8: 38.25
   response: 612F10462430073
+- expected_values:
+    3SERIES_ET_8: 86.25
+  response: 612F104624300B3
+- expected_values:
+    3SERIES_ET_8: 87
+  response: 612F104624300B4
+- expected_values:
+    3SERIES_ET_8: 89.25
+  response: 612F104624300B7
+- expected_values:
+    3SERIES_ET_8: 90
+  response: 612F104624300B8
+- expected_values:
+    3SERIES_ET_8: 94.5
+  response: 612F104624300BE

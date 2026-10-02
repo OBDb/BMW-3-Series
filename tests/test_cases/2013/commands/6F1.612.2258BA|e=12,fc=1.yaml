@@ -4,6 +4,12 @@ test_cases:
     3SERIES_CRANK_TQ: 0
   response: 612F1056258BA0000
 - expected_values:
+    3SERIES_CRANK_TQ: 53.8
+  response: 612F1056258BA021A
+- expected_values:
+    3SERIES_CRANK_TQ: 60.8
+  response: 612F1056258BA0260
+- expected_values:
     3SERIES_CRANK_TQ: 64.8
   response: 612F1056258BA0288
 - expected_values:
@@ -15,3 +21,12 @@ test_cases:
 - expected_values:
     3SERIES_CRANK_TQ: 83.9
   response: 612F1056258BA0347
+- expected_values:
+    3SERIES_CRANK_TQ: 95.5
+  response: 612F1056258BA03BB
+- expected_values:
+    3SERIES_CRANK_TQ: 175.3
+  response: 612F1056258BA06D9
+- expected_values:
+    3SERIES_CRANK_TQ: 185.2
+  response: 612F1056258BA073C

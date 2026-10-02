@@ -71,7 +71,7 @@
   "signals": [
     {"id": "3SERIES_LAMBDA", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 2, "div": 100, "unit": "scalar" }, "name": "Lambda 1, excess air ratio"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4015"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4015"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "3SERIES_IAT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 150, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
@@ -85,7 +85,7 @@
   "signals": [
     {"id": "3SERIES_ETHANOL_CAN", "path": "Fuel", "fmt": {"bix": 104, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Ethanol content, CAN broadcast, live"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "3SERIES_COOLANT", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 200, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
@@ -97,11 +97,11 @@
   "signals": [
     {"id": "3SERIES_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2016 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2016 }, "dbgfilter": { "to": 2016 },
   "signals": [
     {"id": "3SERIES_ET_8", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "years": [2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "3SERIES_ET", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
@@ -173,15 +173,15 @@
   "signals": [
     {"id": "3SERIES_EGT_CALC", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1200, "div": 10, "unit": "celsius" }, "name": "Exhaust gas calculated temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558E"}, "freq": 60, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558E"}, "freq": 60, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "3SERIES_ODO_DME", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, engine computer"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558F"}, "freq": 60, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558F"}, "freq": 60, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "3SERIES_ENG_HOURS", "path": "Trips", "fmt": { "len": 32, "max": 2147483647, "div": 2, "unit": "hours" }, "name": "Engine operating hours"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "56D7"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "56D7"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "3SERIES_FRP", "path": "Fuel", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "bars" }, "name": "Fuel rail pressure"}
   ]},
@@ -201,7 +201,7 @@
   "signals": [
     {"id": "3SERIES_LAMBDA_2", "path": "Engine", "fmt": { "len": 16, "max": 15.99, "div": 4096, "nullmax": 15.99, "unit": "scalar" }, "name": "Lambda 2"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "582F"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "582F"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "3SERIES_CAT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
@@ -509,7 +509,7 @@
   "signals": [
     {"id": "3SERIES_CONS_KWH_100KM", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "scalar" }, "name": "Consumption, kwh/100km"}
   ]},
-{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "dbg": true, "cmd": {"22": "D030"}, "freq": 1,
+{ "hdr": "6F1", "rax": "663", "eax": "63", "fcm1": true, "cmd": {"22": "D030"}, "freq": 1, "dbgfilter": { "to": 2016, "from": 2018 },
   "signals": [
     {"id": "3SERIES_NBT_WHL_SPD_1", "path": "Engine", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 1"},
     {"id": "3SERIES_NBT_WHL_SPD_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilometersPerHour" }, "name": "Wheel sensor speed 2"},

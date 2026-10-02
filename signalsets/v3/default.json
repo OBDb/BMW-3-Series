@@ -97,7 +97,7 @@
   "signals": [
     {"id": "3SERIES_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2016 }, "dbgfilter": { "to": 2016 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2016 }, "dbgfilter": { "to": 2012, "years": [2014, 2015] },
   "signals": [
     {"id": "3SERIES_ET_8", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},

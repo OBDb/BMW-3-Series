@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     3SERIES_CABIN_T: 27
   response: 678F10462D85C1B
+- expected_values:
+    3SERIES_CABIN_T: 29
+  response: 678F10462D85C1D

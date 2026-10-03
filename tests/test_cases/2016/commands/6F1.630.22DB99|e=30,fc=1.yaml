@@ -4,26 +4,8 @@ test_cases:
     3SERIES_STEER_TQ: 0
   response: 630F10662DB99000000
 - expected_values:
-    3SERIES_STEER_TQ: 0.02344
-  response: 630F10662DB99000300
+    3SERIES_STEER_TQ: -0.97656
+  response: 630F10662DB99FF8300
 - expected_values:
-    3SERIES_STEER_TQ: 0.07031
-  response: 630F10662DB99000900
-- expected_values:
-    3SERIES_STEER_TQ: 0.07812
-  response: 630F10662DB99000A00
-- expected_values:
-    3SERIES_STEER_TQ: 0.15625
-  response: 630F10662DB99001400
-- expected_values:
-    3SERIES_STEER_TQ: 0.26562
-  response: 630F10662DB99002200
-- expected_values:
-    3SERIES_STEER_TQ: 0.27344
-  response: 630F10662DB99002300
-- expected_values:
-    3SERIES_STEER_TQ: 0.58594
-  response: 630F10662DB99004B00
-- expected_values:
-    3SERIES_STEER_TQ: 1.72656
-  response: 630F10662DB9900DD00
+    3SERIES_STEER_TQ: -0.15625
+  response: 630F10662DB99FFEC00

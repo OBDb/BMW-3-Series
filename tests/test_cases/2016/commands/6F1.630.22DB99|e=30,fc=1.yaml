@@ -10,6 +10,9 @@ test_cases:
     3SERIES_STEER_TQ: 0.07031
   response: 630F10662DB99000900
 - expected_values:
+    3SERIES_STEER_TQ: 0.07812
+  response: 630F10662DB99000A00
+- expected_values:
     3SERIES_STEER_TQ: 0.15625
   response: 630F10662DB99001400
 - expected_values:

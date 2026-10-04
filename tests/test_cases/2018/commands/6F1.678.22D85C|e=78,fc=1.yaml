@@ -1,0 +1,5 @@
+command_id: 6F1.678.22D85C|e=78,fc=1
+test_cases:
+- expected_values:
+    3SERIES_CABIN_T: 22
+  response: 678F10462D85C16

@@ -1,0 +1,6 @@
+command_id: 6F1.678.22D91A|e=78,fc=1
+test_cases:
+- expected_values:
+    3SERIES_AIR_DIST_L: 8
+    3SERIES_AIR_DIST_R: 8
+  response: 678F10562D91A0808

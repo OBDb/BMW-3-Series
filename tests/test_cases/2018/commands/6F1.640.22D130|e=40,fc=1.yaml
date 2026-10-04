@@ -1,0 +1,5 @@
+command_id: 6F1.640.22D130|e=40,fc=1
+test_cases:
+- expected_values:
+    3SERIES_PARK_BRAKE: 0
+  response: 640F10462D13000

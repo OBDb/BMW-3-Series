@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     3SERIES_IGN_TIMING_3: 19
   response: 612F105624A4C00BE
+- expected_values:
+    3SERIES_IGN_TIMING_3: -26
+  response: 612F105624A4CFEFC

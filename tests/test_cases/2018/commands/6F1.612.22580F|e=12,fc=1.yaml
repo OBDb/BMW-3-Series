@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     3SERIES_IAT_DME: 42.75
   response: 612F10462580F79
+- expected_values:
+    3SERIES_IAT_DME: 52.5
+  response: 612F10462580F86

@@ -1,0 +1,20 @@
+command_id: 6F1.612.224201|e=12,fc=1
+test_cases:
+- expected_values:
+    3SERIES_BARO: 101.14453
+  response: 612F1056242016525
+- expected_values:
+    3SERIES_BARO: 101.18359
+  response: 612F105624201652F
+- expected_values:
+    3SERIES_BARO: 101.20312
+  response: 612F1056242016534
+- expected_values:
+    3SERIES_BARO: 101.24219
+  response: 612F105624201653E
+- expected_values:
+    3SERIES_BARO: 101.25
+  response: 612F1056242016540
+- expected_values:
+    3SERIES_BARO: 101.26172
+  response: 612F1056242016543

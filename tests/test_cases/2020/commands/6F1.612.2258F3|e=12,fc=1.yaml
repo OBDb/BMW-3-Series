@@ -1,0 +1,5 @@
+command_id: 6F1.612.2258F3|e=12,fc=1
+test_cases:
+- expected_values:
+    3SERIES_LOW_SIDE_FUEL_P: 6
+  response: 612F1056258F31770

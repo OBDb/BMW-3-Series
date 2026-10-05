@@ -1,0 +1,5 @@
+command_id: 6F1.678.22D8C5|e=78,fc=1
+test_cases:
+- expected_values:
+    3SERIES_COMP_STATE: 0
+  response: 678F10562D8C50000

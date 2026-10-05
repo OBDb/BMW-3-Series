@@ -1,0 +1,5 @@
+command_id: 6F1.612.224A2E|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_REV_LIMIT: 6800
+  response: 612F105624A2E1A90

@@ -1,8 +1,0 @@
-command_id: 6F1.612.22442C|e=12,fc=1
-test_cases:
-- expected_values:
-    3SERIES_OIL_LEVEL: 0
-  response: 612F10462442C00
-- expected_values:
-    3SERIES_OIL_LEVEL: 50
-  response: 612F10462442C32

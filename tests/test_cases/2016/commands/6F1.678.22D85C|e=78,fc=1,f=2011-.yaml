@@ -1,0 +1,23 @@
+command_id: 6F1.678.22D85C|e=78,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_CABIN_T: 25
+  response: 678F10462D85C19
+- expected_values:
+    3SERIES_CABIN_T: 26
+  response: 678F10462D85C1A
+- expected_values:
+    3SERIES_CABIN_T: 27
+  response: 678F10462D85C1B
+- expected_values:
+    3SERIES_CABIN_T: 29
+  response: 678F10462D85C1D
+- expected_values:
+    3SERIES_CABIN_T: 30
+  response: 678F10462D85C1E
+- expected_values:
+    3SERIES_CABIN_T: 31
+  response: 678F10462D85C1F
+- expected_values:
+    3SERIES_CABIN_T: 32
+  response: 678F10462D85C20

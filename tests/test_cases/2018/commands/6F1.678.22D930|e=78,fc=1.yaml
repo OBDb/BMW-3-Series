@@ -1,5 +1,0 @@
-command_id: 6F1.678.22D930|e=78,fc=1
-test_cases:
-- expected_values:
-    3SERIES_HVAC_AUC: 1
-  response: 678F10462D93001

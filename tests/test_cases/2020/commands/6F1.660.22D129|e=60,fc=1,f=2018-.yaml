@@ -1,0 +1,9 @@
+command_id: 6F1.660.22D129|e=60,fc=1,f=2018-
+test_cases:
+- expected_values:
+    3SERIES_BC_AVG_CONS: 6553
+    3SERIES_BC_AVG_SPD: 655
+    3SERIES_BC_RANGE: 0
+  response: |-
+    660F1100B62D129FFFD
+    660F121FFFD00000000

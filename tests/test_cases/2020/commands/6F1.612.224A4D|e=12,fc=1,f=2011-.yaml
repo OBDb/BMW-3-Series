@@ -1,0 +1,20 @@
+command_id: 6F1.612.224A4D|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_IGN_TIMING_4: 6.1
+  response: 612F105624A4D003D
+- expected_values:
+    3SERIES_IGN_TIMING_4: 10
+  response: 612F105624A4D0064
+- expected_values:
+    3SERIES_IGN_TIMING_4: 13.6
+  response: 612F105624A4D0088
+- expected_values:
+    3SERIES_IGN_TIMING_4: 17
+  response: 612F105624A4D00AA
+- expected_values:
+    3SERIES_IGN_TIMING_4: 23.5
+  response: 612F105624A4D00EB
+- expected_values:
+    3SERIES_IGN_TIMING_4: -14.3
+  response: 612F105624A4DFF71

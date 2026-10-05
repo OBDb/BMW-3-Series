@@ -1,0 +1,7 @@
+command_id: 6F1.612.22558E|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_ODO_DME: 104660
+  response: |-
+    612F1100762558E0001
+    612F12198D4FFFFFFFF

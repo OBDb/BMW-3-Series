@@ -1,5 +1,0 @@
-command_id: 6F1.612.224A2D|e=12,fc=1
-test_cases:
-- expected_values:
-    3SERIES_MAP: 99.78906
-  response: 612F105624A2D31E5

@@ -1,0 +1,20 @@
+command_id: 6F1.612.22442C|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_OIL_LEVEL: 65
+  response: 612F10462442C41
+- expected_values:
+    3SERIES_OIL_LEVEL: 71
+  response: 612F10462442C47
+- expected_values:
+    3SERIES_OIL_LEVEL: 74
+  response: 612F10462442C4A
+- expected_values:
+    3SERIES_OIL_LEVEL: 76
+  response: 612F10462442C4C
+- expected_values:
+    3SERIES_OIL_LEVEL: 79
+  response: 612F10462442C4F
+- expected_values:
+    3SERIES_OIL_LEVEL: 80
+  response: 612F10462442C50

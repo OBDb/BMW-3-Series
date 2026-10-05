@@ -1,8 +1,0 @@
-command_id: 6F1.630.22DB99|e=30,fc=1
-test_cases:
-- expected_values:
-    3SERIES_STEER_TQ: 0.0625
-  response: 630F10662DB99000800
-- expected_values:
-    3SERIES_STEER_TQ: 0.66406
-  response: 630F10662DB99005500

@@ -1,0 +1,32 @@
+command_id: 6F1.612.22480C|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_LOAD_TGT: 11.55469
+  response: 612F10562480C01ED
+- expected_values:
+    3SERIES_LOAD_TGT: 11.60156
+  response: 612F10562480C01EF
+- expected_values:
+    3SERIES_LOAD_TGT: 11.64844
+  response: 612F10562480C01F1
+- expected_values:
+    3SERIES_LOAD_TGT: 11.78906
+  response: 612F10562480C01F7
+- expected_values:
+    3SERIES_LOAD_TGT: 13.00781
+  response: 612F10562480C022B
+- expected_values:
+    3SERIES_LOAD_TGT: 14.92969
+  response: 612F10562480C027D
+- expected_values:
+    3SERIES_LOAD_TGT: 19.71094
+  response: 612F10562480C0349
+- expected_values:
+    3SERIES_LOAD_TGT: 35.625
+  response: 612F10562480C05F0
+- expected_values:
+    3SERIES_LOAD_TGT: 37.19531
+  response: 612F10562480C0633
+- expected_values:
+    3SERIES_LOAD_TGT: 72.96094
+  response: 612F10562480C0C29

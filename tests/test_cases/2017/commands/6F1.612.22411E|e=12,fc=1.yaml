@@ -1,9 +1,0 @@
-command_id: 6F1.612.22411E|e=12,fc=1
-test_cases:
-- expected_values:
-    3SERIES_COOLANT: 0
-  response: |-
-    612F1101362411E0000
-    612F121000000000000
-    612F122000000000000
-    612F1230000FFFFFFFF

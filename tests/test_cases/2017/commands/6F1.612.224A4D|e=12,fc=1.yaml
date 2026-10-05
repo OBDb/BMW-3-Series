@@ -1,5 +1,0 @@
-command_id: 6F1.612.224A4D|e=12,fc=1
-test_cases:
-- expected_values:
-    3SERIES_IGN_TIMING_4: 0
-  response: 612F105624A4D0000

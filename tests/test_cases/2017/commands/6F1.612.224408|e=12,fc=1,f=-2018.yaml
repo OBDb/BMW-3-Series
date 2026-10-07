@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     3SERIES_EOT_DME: 95.1
   response: 612F10562440803B7
+- expected_values:
+    3SERIES_EOT_DME: 380.1
+  response: 612F1056244080ED9
+- expected_values:
+    3SERIES_EOT_DME: 380.6
+  response: 612F1056244080EDE

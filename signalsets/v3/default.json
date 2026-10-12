@@ -291,7 +291,7 @@
     {"id": "3SERIES_OBC_AC_I_2", "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 6553,              "div": 10,                "unit": "amps" }, "name": "Charger AC current, phase 2"},
     {"id": "3SERIES_OBC_AC_I_3", "path": "Engine", "fmt": {"bix": 96, "len": 16, "max": 6553,              "div": 10,                "unit": "amps" }, "name": "Charger AC current, phase 3"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"21": "05"}, "freq": 0.25, "dbgfilter": { "to": 2007, "from": 2009 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"21": "05"}, "freq": 0.25, "filter": { "to": 2012, "from": 2026 }, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2012] },
   "signals": [
     {"id": "3SERIES_TURBINE_SPD", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "AT turbine speed"}
   ]},
@@ -299,7 +299,7 @@
   "signals": [
     {"id": "3SERIES_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "AT engine torque"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"21": "0A"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011], "from": 2014 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"21": "0A"}, "freq": 1, "filter": { "to": 2019, "from": 2026 }, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011], "from": 2014 },
   "signals": [
     {"id": "3SERIES_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 200, "min": -55, "add": -55, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]},

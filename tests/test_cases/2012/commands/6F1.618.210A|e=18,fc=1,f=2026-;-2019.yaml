@@ -1,4 +1,4 @@
-command_id: 6F1.618.210A|e=18,fc=1
+command_id: 6F1.618.210A|e=18,fc=1,f=2026-;-2019
 test_cases:
 - expected_values:
     3SERIES_ATF_T: -54

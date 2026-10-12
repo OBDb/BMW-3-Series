@@ -1,4 +1,4 @@
-command_id: 6F1.618.2105|e=18,fc=1,f=2026-;-2012
+command_id: 6F1.618.2105|e=18,fc=1,f=2026-;-2019
 test_cases:
 - expected_values:
     3SERIES_TURBINE_SPD: 0

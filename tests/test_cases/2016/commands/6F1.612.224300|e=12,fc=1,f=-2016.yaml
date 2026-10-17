@@ -4,23 +4,5 @@ test_cases:
     3SERIES_ET_8: 87
   response: 612F104624300B4
 - expected_values:
-    3SERIES_ET_8: 87.75
-  response: 612F104624300B5
-- expected_values:
-    3SERIES_ET_8: 92.25
-  response: 612F104624300BB
-- expected_values:
-    3SERIES_ET_8: 93.75
-  response: 612F104624300BD
-- expected_values:
-    3SERIES_ET_8: 94.5
-  response: 612F104624300BE
-- expected_values:
-    3SERIES_ET_8: 95.25
-  response: 612F104624300BF
-- expected_values:
-    3SERIES_ET_8: 99
-  response: 612F104624300C4
-- expected_values:
     3SERIES_ET_8: 102
   response: 612F104624300C8

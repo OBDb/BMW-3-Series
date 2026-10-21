@@ -7,14 +7,8 @@ test_cases:
     3SERIES_BARO: 98.91016
   response: 612F10562420162E9
 - expected_values:
+    3SERIES_BARO: 99.4375
+  response: 612F1056242016370
+- expected_values:
     3SERIES_BARO: 101.51172
   response: 612F1056242016583
-- expected_values:
-    3SERIES_BARO: 101.51562
-  response: 612F1056242016584
-- expected_values:
-    3SERIES_BARO: 101.51953
-  response: 612F1056242016585
-- expected_values:
-    3SERIES_BARO: 101.52344
-  response: 612F1056242016586

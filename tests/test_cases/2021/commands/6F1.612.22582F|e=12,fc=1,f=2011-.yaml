@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     3SERIES_CAT_T: 91.55
   response: 612F10562582F0E3F
+- expected_values:
+    3SERIES_CAT_T: 122.05
+  response: 612F10562582F0F70
+- expected_values:
+    3SERIES_CAT_T: 129.35
+  response: 612F10562582F0FB9
+- expected_values:
+    3SERIES_CAT_T: 190.35
+  response: 612F10562582F121B

@@ -4,29 +4,8 @@ test_cases:
     3SERIES_ET: 62.65
   response: 612F1056243000D1E
 - expected_values:
-    3SERIES_ET: 64.35
-  response: 612F1056243000D2F
-- expected_values:
-    3SERIES_ET: 64.65
-  response: 612F1056243000D32
+    3SERIES_ET: 69.85
+  response: 612F1056243000D66
 - expected_values:
     3SERIES_ET: 88.45
   response: 612F1056243000E20
-- expected_values:
-    3SERIES_ET: 89.65
-  response: 612F1056243000E2C
-- expected_values:
-    3SERIES_ET: 89.85
-  response: 612F1056243000E2E
-- expected_values:
-    3SERIES_ET: 90.05
-  response: 612F1056243000E30
-- expected_values:
-    3SERIES_ET: 91.15
-  response: 612F1056243000E3B
-- expected_values:
-    3SERIES_ET: 93.15
-  response: 612F1056243000E4F
-- expected_values:
-    3SERIES_ET: 93.25
-  response: 612F1056243000E50

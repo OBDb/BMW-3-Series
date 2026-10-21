@@ -1,26 +1,8 @@
 command_id: 6F1.612.22580F|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
-    3SERIES_IAT_DME: 51.75
-  response: 612F10462580F85
+    3SERIES_IAT_DME: 49.5
+  response: 612F10462580F82
 - expected_values:
-    3SERIES_IAT_DME: 55.5
-  response: 612F10462580F8A
-- expected_values:
-    3SERIES_IAT_DME: 56.25
-  response: 612F10462580F8B
-- expected_values:
-    3SERIES_IAT_DME: 57
-  response: 612F10462580F8C
-- expected_values:
-    3SERIES_IAT_DME: 59.25
-  response: 612F10462580F8F
-- expected_values:
-    3SERIES_IAT_DME: 60
-  response: 612F10462580F90
-- expected_values:
-    3SERIES_IAT_DME: 60.75
-  response: 612F10462580F91
-- expected_values:
-    3SERIES_IAT_DME: 61.5
-  response: 612F10462580F92
+    3SERIES_IAT_DME: 63
+  response: 612F10462580F94

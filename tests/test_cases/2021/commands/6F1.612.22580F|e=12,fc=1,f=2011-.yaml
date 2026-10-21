@@ -1,6 +1,9 @@
 command_id: 6F1.612.22580F|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    3SERIES_IAT_DME: 51.75
+  response: 612F10462580F85
+- expected_values:
     3SERIES_IAT_DME: 55.5
   response: 612F10462580F8A
 - expected_values:
@@ -15,6 +18,9 @@ test_cases:
 - expected_values:
     3SERIES_IAT_DME: 60
   response: 612F10462580F90
+- expected_values:
+    3SERIES_IAT_DME: 60.75
+  response: 612F10462580F91
 - expected_values:
     3SERIES_IAT_DME: 61.5
   response: 612F10462580F92

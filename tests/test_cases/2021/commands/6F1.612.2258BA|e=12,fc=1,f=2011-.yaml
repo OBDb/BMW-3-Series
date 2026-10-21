@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     3SERIES_CRANK_TQ: 0
   response: 612F1056258BA0000
+- expected_values:
+    3SERIES_CRANK_TQ: 96.3
+  response: 612F1056258BA03C3

@@ -1,6 +1,15 @@
 command_id: 6F1.612.224300|e=12,fc=1,f=2017-
 test_cases:
 - expected_values:
+    3SERIES_ET: 62.65
+  response: 612F1056243000D1E
+- expected_values:
+    3SERIES_ET: 64.35
+  response: 612F1056243000D2F
+- expected_values:
+    3SERIES_ET: 64.65
+  response: 612F1056243000D32
+- expected_values:
     3SERIES_ET: 88.45
   response: 612F1056243000E20
 - expected_values:

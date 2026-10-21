@@ -7,6 +7,12 @@ test_cases:
     3SERIES_LOAD: 44.25
   response: 612F1046258133B
 - expected_values:
+    3SERIES_LOAD: 45
+  response: 612F1046258133C
+- expected_values:
+    3SERIES_LOAD: 49.5
+  response: 612F10462581342
+- expected_values:
     3SERIES_LOAD: 62.25
   response: 612F10462581353
 - expected_values:

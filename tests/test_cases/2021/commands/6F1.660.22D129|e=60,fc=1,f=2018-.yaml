@@ -4,4 +4,9 @@ test_cases:
     3SERIES_BC_RANGE: 0
   response: |-
     660F1100B62D129FFFD
+    660F121FFFD00000000
+- expected_values:
+    3SERIES_BC_RANGE: 0
+  response: |-
+    660F1100B62D129FFFD
     660F121FFFDFFFD0000

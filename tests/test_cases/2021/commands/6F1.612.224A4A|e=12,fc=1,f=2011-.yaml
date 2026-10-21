@@ -1,8 +1,17 @@
 command_id: 6F1.612.224A4A|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
+    3SERIES_IGN_TIMING_2: 18.5
+  response: 612F105624A4A00B9
+- expected_values:
     3SERIES_IGN_TIMING_2: -20.7
   response: 612F105624A4AFF31
+- expected_values:
+    3SERIES_IGN_TIMING_2: -16.1
+  response: 612F105624A4AFF5F
+- expected_values:
+    3SERIES_IGN_TIMING_2: -3.9
+  response: 612F105624A4AFFD9
 - expected_values:
     3SERIES_IGN_TIMING_2: -0.1
   response: 612F105624A4AFFFF

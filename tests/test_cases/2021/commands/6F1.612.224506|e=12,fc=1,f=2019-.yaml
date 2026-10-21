@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     3SERIES_OIL_TEMP: null
   response: 612F1056245060000
+- expected_values:
+    3SERIES_OIL_TEMP: 928.85
+  response: 612F1056245062EF4
+- expected_values:
+    3SERIES_OIL_TEMP: 1726.35
+  response: 612F1056245064E1B

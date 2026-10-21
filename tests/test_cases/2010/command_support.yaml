@@ -192,4 +192,5 @@ unsupported_commands_by_ecu:
   - 6F1.678.22D931
   "7E0":
   - 7E0.0103:FUELSYS1,FUELSYS2
+  - 7E0.0111:TP
   - 7E0.011C:OBDSUP

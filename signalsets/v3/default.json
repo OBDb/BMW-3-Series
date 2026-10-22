@@ -426,11 +426,11 @@
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "3SERIES_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                        "unit": "scalar"  }, "name": "Front left tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
-    {"id": "3SERIES_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Front left tire pressure",                    "suggestedMetric": "frontLeftTirePressure"},
-    {"id": "3SERIES_TT_FL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 215,   "min": -40,              "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Front left tire temperature",                 "suggestedMetric": "frontLeftTireTemperature"},
-    {"id": "3SERIES_TP_SET_FL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Front left tire pressure, set point"},
-    {"id": "3SERIES_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                                                      "unit": "scalar"  }, "name": "Front left tire sensor battery life, months"}
+    {"id": "3SERIES_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Front left tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
+    {"id": "3SERIES_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front left tire pressure",                    "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "3SERIES_TT_FL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "fahrenheit" }, "name": "Front left tire temperature",                 "suggestedMetric": "frontLeftTireTemperature"},
+    {"id": "3SERIES_TP_SET_FL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front left tire pressure, set point"},
+    {"id": "3SERIES_TPMS_BAT_FL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Front left tire sensor battery life, months"}
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "filter": { "from": 2011, "to": 2018 }, "dbgfilter": { "to": 2013, "years": [2015] },
   "signals": [
@@ -442,11 +442,11 @@
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "3SERIES_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                        "unit": "scalar"  }, "name": "Front right tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
-    {"id": "3SERIES_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Front right tire pressure",                    "suggestedMetric": "frontRightTirePressure"},
-    {"id": "3SERIES_TT_FR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 215,   "min": -40,              "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Front right tire temperature",                 "suggestedMetric": "frontRightTireTemperature"},
-    {"id": "3SERIES_TP_SET_FR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Front right tire pressure, set point"},
-    {"id": "3SERIES_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                                                      "unit": "scalar"  }, "name": "Front right tire sensor battery life, months"}
+    {"id": "3SERIES_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Front right tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
+    {"id": "3SERIES_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front right tire pressure",                    "suggestedMetric": "frontRightTirePressure"},
+    {"id": "3SERIES_TT_FR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "fahrenheit" }, "name": "Front right tire temperature",                 "suggestedMetric": "frontRightTireTemperature"},
+    {"id": "3SERIES_TP_SET_FR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front right tire pressure, set point"},
+    {"id": "3SERIES_TPMS_BAT_FR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Front right tire sensor battery life, months"}
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "filter": { "from": 2011, "to": 2018 }, "dbgfilter": { "to": 2013, "years": [2015] },
   "signals": [
@@ -458,11 +458,11 @@
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "3SERIES_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                        "unit": "scalar"  }, "name": "Rear left tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
-    {"id": "3SERIES_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Rear left tire pressure",                    "suggestedMetric": "rearLeftTirePressure"},
-    {"id": "3SERIES_TT_RL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 215,   "min": -40,              "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Rear left tire temperature",                 "suggestedMetric": "rearLeftTireTemperature"},
-    {"id": "3SERIES_TP_SET_RL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Rear left tire pressure, set point"},
-    {"id": "3SERIES_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                                                      "unit": "scalar"  }, "name": "Rear left tire sensor battery life, months"}
+    {"id": "3SERIES_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Rear left tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
+    {"id": "3SERIES_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear left tire pressure",                    "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "3SERIES_TT_RL",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "fahrenheit" }, "name": "Rear left tire temperature",                 "suggestedMetric": "rearLeftTireTemperature"},
+    {"id": "3SERIES_TP_SET_RL",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear left tire pressure, set point"},
+    {"id": "3SERIES_TPMS_BAT_RL", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Rear left tire sensor battery life, months"}
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "filter": { "from": 2011, "to": 2018 }, "dbgfilter": { "to": 2013, "years": [2015] },
   "signals": [
@@ -474,11 +474,11 @@
   ]},
 { "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "from": 2022 },
   "signals": [
-    {"id": "3SERIES_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                                        "unit": "scalar"  }, "name": "Rear right tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
-    {"id": "3SERIES_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Rear right tire pressure",                    "suggestedMetric": "rearRightTirePressure"},
-    {"id": "3SERIES_TT_RR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 215,   "min": -40,              "add": -40, "nullmax": 215, "unit": "celsius" }, "name": "Rear right tire temperature",                 "suggestedMetric": "rearRightTireTemperature"},
-    {"id": "3SERIES_TP_SET_RR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,               "div": 1000,             "nullmax": 6.3, "unit": "bars"    }, "name": "Rear right tire pressure, set point"},
-    {"id": "3SERIES_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                                                      "unit": "scalar"  }, "name": "Rear right tire sensor battery life, months"}
+    {"id": "3SERIES_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Rear right tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
+    {"id": "3SERIES_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear right tire pressure",                    "suggestedMetric": "rearRightTirePressure"},
+    {"id": "3SERIES_TT_RR",       "path": "Tires", "fmt": {"bix": 56,  "len": 8,  "max": 255,                "nullmax": 255, "unit": "fahrenheit" }, "name": "Rear right tire temperature",                 "suggestedMetric": "rearRightTireTemperature"},
+    {"id": "3SERIES_TP_SET_RR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear right tire pressure, set point"},
+    {"id": "3SERIES_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Rear right tire sensor battery life, months"}
   ]},
 { "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2015, 2019], "from": 2022 },
   "signals": [

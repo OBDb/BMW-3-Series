@@ -4,5 +4,5 @@ test_cases:
     3SERIES_VSS_INSTR: 0
   response: 60DF10562D2400000
 - expected_values:
-    3SERIES_VSS_INSTR: 132
-  response: 60DF10562D2400084
+    3SERIES_VSS_INSTR: 139
+  response: 60DF10562D240008B

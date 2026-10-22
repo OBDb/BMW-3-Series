@@ -7,6 +7,9 @@ test_cases:
     3SERIES_BRAKE_SWITCH: 1
   response: 618F10562DA280001
 - expected_values:
+    3SERIES_BRAKE_SWITCH: 1
+  response: 618F10562DA28FFFF
+- expected_values:
     3SERIES_BRAKE_SWITCH: 0
   response: |-
     618F1100762DA280000

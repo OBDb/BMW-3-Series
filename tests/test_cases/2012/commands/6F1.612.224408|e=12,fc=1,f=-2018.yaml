@@ -1,0 +1,11 @@
+command_id: 6F1.612.224408|e=12,fc=1,f=-2018
+test_cases:
+- expected_values:
+    3SERIES_EOT_DME: 51.2
+  response: 612F1056244080200
+- expected_values:
+    3SERIES_EOT_DME: 101.7
+  response: 612F10562440803F9
+- expected_values:
+    3SERIES_EOT_DME: 102.4
+  response: 612F1056244080400

@@ -1,0 +1,14 @@
+command_id: 6F1.607.22DD68|e=07,fc=1
+test_cases:
+- expected_values:
+    3SERIES_HVBAT_VOLT: 252.62
+  response: 607F10562DD6862AE
+- expected_values:
+    3SERIES_HVBAT_VOLT: 304.64
+  response: 607F10562DD687700
+- expected_values:
+    3SERIES_HVBAT_VOLT: 307.19
+  response: 607F10562DD6877FF
+- expected_values:
+    3SERIES_HVBAT_VOLT: 353.41
+  response: 607F10562DD688A0D

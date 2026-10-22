@@ -4,8 +4,8 @@ test_cases:
     3SERIES_VSS: 0
   response: 660F10562D1070000
 - expected_values:
-    3SERIES_VSS: 25.5
-  response: 660F10562D10700FF
+    3SERIES_VSS: 102.3
+  response: 660F10562D10703FF
 - expected_values:
     3SERIES_VSS: 237.1
   response: 660F10562D1070943

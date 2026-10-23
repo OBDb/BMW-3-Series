@@ -7,6 +7,9 @@ test_cases:
     3SERIES_IGN_ANGLE: 19.5
   response: 612F1046259FA1A
 - expected_values:
+    3SERIES_IGN_ANGLE: -22.5
+  response: 612F1046259FAE2
+- expected_values:
     3SERIES_IGN_ANGLE: -20.25
   response: 612F1046259FAE5
 - expected_values:

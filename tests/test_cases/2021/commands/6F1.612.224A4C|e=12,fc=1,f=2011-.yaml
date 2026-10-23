@@ -7,6 +7,9 @@ test_cases:
     3SERIES_IGN_TIMING_3: -25
   response: 612F105624A4CFF06
 - expected_values:
+    3SERIES_IGN_TIMING_3: -20
+  response: 612F105624A4CFF38
+- expected_values:
     3SERIES_IGN_TIMING_3: -16.6
   response: 612F105624A4CFF5A
 - expected_values:

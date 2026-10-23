@@ -1,11 +1,11 @@
 command_id: 6F1.612.22400B|e=12,fc=1
 test_cases:
 - expected_values:
-    3SERIES_LAMBDA: 1.38
+    3SERIES_LAMBDA: 0
   response: |-
-    612F1100F62400B01B4
-    612F12101B1018A0094
-    612F122F7BE0008FFFF
+    612F1100F62400B0046
+    612F121004400000093
+    612F122F65A0008FFFF
 - expected_values:
     3SERIES_LAMBDA: 0.59
   response: |-

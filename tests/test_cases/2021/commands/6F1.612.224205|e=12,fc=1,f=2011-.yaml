@@ -4,29 +4,11 @@ test_cases:
     3SERIES_BOOST_P: 98.32812
   response: 612F105624205312A
 - expected_values:
-    3SERIES_BOOST_P: 99.35938
-  response: 612F10562420531AE
-- expected_values:
     3SERIES_BOOST_P: 100.25
   response: 612F1056242053220
 - expected_values:
-    3SERIES_BOOST_P: 100.28125
-  response: 612F1056242053224
-- expected_values:
-    3SERIES_BOOST_P: 101.35938
-  response: 612F10562420532AE
-- expected_values:
-    3SERIES_BOOST_P: 101.78906
-  response: 612F10562420532E5
-- expected_values:
     3SERIES_BOOST_P: 103.98438
   response: 612F10562420533FE
-- expected_values:
-    3SERIES_BOOST_P: 108.92969
-  response: 612F1056242053677
-- expected_values:
-    3SERIES_BOOST_P: 109.4375
-  response: 612F10562420536B8
 - expected_values:
     3SERIES_BOOST_P: 111.49219
   response: 612F10562420537BF

@@ -4,8 +4,8 @@ test_cases:
     3SERIES_ET: 62.65
   response: 612F1056243000D1E
 - expected_values:
-    3SERIES_ET: 69.85
-  response: 612F1056243000D66
+    3SERIES_ET: 74.75
+  response: 612F1056243000D97
 - expected_values:
     3SERIES_ET: 88.45
   response: 612F1056243000E20

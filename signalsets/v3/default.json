@@ -233,7 +233,7 @@
   "signals": [
     {"id": "3SERIES_APP", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "dbg": true, "cmd": {"22": "DEF1"}, "freq": 5,
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF1"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "3SERIES_CHG_FLAP_CLOSED", "path": "Doors", "fmt": { "len": 16, "max": 1, "unit": "yesno" }, "name": "Charge flap closed"}
   ]},
@@ -241,11 +241,11 @@
   "signals": [
     {"id": "3SERIES_CHG_READY", "path": "Battery", "fmt": { "len": 8, "max": 1, "unit": "yesno" }, "name": "Charging interface ready"}
   ]},
-{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "dbg": true, "cmd": {"22": "DEF3"}, "freq": 5,
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF3"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "3SERIES_CHG_LED", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charge port light state"}
   ]},
-{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "dbg": true, "cmd": {"22": "DEF5"}, "freq": 5,
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF5"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
     {"id": "3SERIES_CHG_PLUG_ST", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Charging plug state"},
     {"id": "3SERIES_CHG_CABLE_I", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "amps"   }, "name": "Charging cable current rating"}

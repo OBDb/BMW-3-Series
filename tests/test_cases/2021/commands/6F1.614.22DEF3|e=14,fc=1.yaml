@@ -1,0 +1,5 @@
+command_id: 6F1.614.22DEF3|e=14,fc=1
+test_cases:
+- expected_values:
+    3SERIES_CHG_LED: 0
+  response: 614F10462DEF300

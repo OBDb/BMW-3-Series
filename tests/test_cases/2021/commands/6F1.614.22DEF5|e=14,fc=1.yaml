@@ -1,0 +1,6 @@
+command_id: 6F1.614.22DEF5|e=14,fc=1
+test_cases:
+- expected_values:
+    3SERIES_CHG_CABLE_I: 0
+    3SERIES_CHG_PLUG_ST: 0
+  response: 614F10562DEF50000

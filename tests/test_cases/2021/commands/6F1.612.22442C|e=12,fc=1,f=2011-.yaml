@@ -4,6 +4,9 @@ test_cases:
     3SERIES_OIL_LEVEL: 0
   response: 612F10462442C00
 - expected_values:
+    3SERIES_OIL_LEVEL: 78
+  response: 612F10462442C4E
+- expected_values:
     3SERIES_OIL_LEVEL: 0
   response: |-
     612F10462465001

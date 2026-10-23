@@ -10,6 +10,9 @@ test_cases:
     612F1210000FFFFFFFF
     612F10562440882E0
 - expected_values:
+    3SERIES_EOT_DME_K: -238.95
+  response: 612F1056244080D5C
+- expected_values:
     3SERIES_EOT_DME_K: -237.41
   response: 612F1056244080DF6
 - expected_values:

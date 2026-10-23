@@ -1,8 +1,8 @@
 command_id: 6F1.612.224201|e=12,fc=1,f=2011-
 test_cases:
 - expected_values:
-    3SERIES_BARO: 98.90625
-  response: 612F10562420162E8
+    3SERIES_BARO: 98.78516
+  response: 612F10562420162C9
 - expected_values:
     3SERIES_BARO: 98.91016
   response: 612F10562420162E9

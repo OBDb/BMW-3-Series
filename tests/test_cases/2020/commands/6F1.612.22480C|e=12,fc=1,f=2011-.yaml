@@ -4,17 +4,17 @@ test_cases:
     3SERIES_LOAD_TGT: 0
   response: 612F10562480C0000
 - expected_values:
-    3SERIES_LOAD_TGT: 24.84375
+    3SERIES_LOAD_TGT: 16.5625
   response: 612F10562480C0424
 - expected_values:
-    3SERIES_LOAD_TGT: 25.07812
+    3SERIES_LOAD_TGT: 16.71875
   response: 612F10562480C042E
 - expected_values:
-    3SERIES_LOAD_TGT: 29.34375
+    3SERIES_LOAD_TGT: 19.5625
   response: 612F10562480C04E4
 - expected_values:
-    3SERIES_LOAD_TGT: 38.25
+    3SERIES_LOAD_TGT: 25.5
   response: 612F10562480C0660
 - expected_values:
-    3SERIES_LOAD_TGT: 70.94531
+    3SERIES_LOAD_TGT: 47.29688
   response: 612F10562480C0BD3

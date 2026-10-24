@@ -4,8 +4,8 @@ test_cases:
     3SERIES_LOAD_TGT: 0
   response: 612F10562480C0000
 - expected_values:
-    3SERIES_LOAD_TGT: 149.25
+    3SERIES_LOAD_TGT: 99.5
   response: 612F10562480C18E0
 - expected_values:
-    3SERIES_LOAD_TGT: 150.35156
+    3SERIES_LOAD_TGT: 100.23438
   response: 612F10562480C190F

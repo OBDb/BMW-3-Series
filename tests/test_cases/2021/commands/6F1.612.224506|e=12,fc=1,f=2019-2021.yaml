@@ -1,26 +1,26 @@
-command_id: 6F1.612.224506|e=12,fc=1,f=2019-
+command_id: 6F1.612.224506|e=12,fc=1,f=2019-2021
 test_cases:
 - expected_values:
-    3SERIES_OIL_TEMP: null
+    3SERIES_OIL_TEMP_RAW: 0
   response: 612F1056245060000
 - expected_values:
-    3SERIES_OIL_TEMP: 667.65
+    3SERIES_OIL_TEMP_RAW: 9408
   response: 612F10562450624C0
 - expected_values:
-    3SERIES_OIL_TEMP: 737.95
+    3SERIES_OIL_TEMP_RAW: 10111
   response: 612F105624506277F
 - expected_values:
-    3SERIES_OIL_TEMP: 928.85
+    3SERIES_OIL_TEMP_RAW: 12020
   response: 612F1056245062EF4
 - expected_values:
-    3SERIES_OIL_TEMP: 951.05
+    3SERIES_OIL_TEMP_RAW: 12242
   response: 612F1056245062FD2
 - expected_values:
-    3SERIES_OIL_TEMP: 1726.35
+    3SERIES_OIL_TEMP_RAW: 19995
   response: 612F1056245064E1B
 - expected_values:
-    3SERIES_OIL_TEMP: 2328.85
+    3SERIES_OIL_TEMP_RAW: 26020
   response: 612F10562450665A4
 - expected_values:
-    3SERIES_OIL_TEMP: 2578.55
+    3SERIES_OIL_TEMP_RAW: 28517
   response: 612F1056245066F65

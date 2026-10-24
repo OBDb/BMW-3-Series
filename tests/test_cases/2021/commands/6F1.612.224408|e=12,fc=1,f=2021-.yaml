@@ -1,4 +1,4 @@
-command_id: 6F1.612.224408|e=12,fc=1,f=2019-
+command_id: 6F1.612.224408|e=12,fc=1,f=2021-
 test_cases:
 - expected_values:
     3SERIES_EOT_DME_K: 61.89
@@ -10,14 +10,14 @@ test_cases:
     612F1210000FFFFFFFF
     612F10562440882E0
 - expected_values:
-    3SERIES_EOT_DME_K: -238.95
+    3SERIES_EOT_DME_K: null
   response: 612F1056244080D5C
-- expected_values:
-    3SERIES_EOT_DME_K: -237.41
-  response: 612F1056244080DF6
 - expected_values:
     3SERIES_EOT_DME_K: 60.58
   response: 612F105624408825D
+- expected_values:
+    3SERIES_EOT_DME_K: 62.05
+  response: 612F10562440882F0
 - expected_values:
     3SERIES_EOT_DME_K: 61.1
   response: |-

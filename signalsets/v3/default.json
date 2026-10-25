@@ -177,6 +177,30 @@
   "signals": [
     {"id": "3SERIES_VSS2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "High resolution vehicle speed."}
   ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4B23"}, "freq": 30, "filter": { "from": 2011 },
+  "signals": [
+    {"id": "3SERIES_MISFIRE_CNT_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count, cylinder 1"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4B24"}, "freq": 30, "filter": { "from": 2011 },
+  "signals": [
+    {"id": "3SERIES_MISFIRE_CNT_4B24", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 2"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4B25"}, "freq": 30, "filter": { "from": 2011 },
+  "signals": [
+    {"id": "3SERIES_MISFIRE_CNT_4B25", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 3"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4B30"}, "freq": 30, "filter": { "from": 2011 },
+  "signals": [
+    {"id": "3SERIES_MISFIRE_CNT_4B30", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 4"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4B31"}, "freq": 30, "filter": { "from": 2011 },
+  "signals": [
+    {"id": "3SERIES_MISFIRE_CNT_4B31", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 5"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "4B32"}, "freq": 30, "filter": { "from": 2011 },
+  "signals": [
+    {"id": "3SERIES_MISFIRE_CNT_4B32", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 6"}
+  ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4C5B"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2019, "years": [2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "3SERIES_EGT_CALC", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1200, "div": 10, "unit": "celsius" }, "name": "Exhaust gas calculated temperature"}
@@ -224,6 +248,10 @@
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58BA"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2019], "from": 2022 },
   "signals": [
     {"id": "3SERIES_CRANK_TQ", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "newtonMeters" }, "name": "Crank torque"}
+  ]},
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "dbg": true, "cmd": {"22": "58DB"}, "freq": 30, "filter": { "from": 2011 },
+  "signals": [
+    {"id": "3SERIES_MISFIRE_CNT_TOTAL", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, all cylinders"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58F3"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2014, 2015, 2019], "from": 2022 },
   "signals": [
@@ -488,7 +516,7 @@
     {"id": "3SERIES_TP_SET_RR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear right tire pressure, set point"},
     {"id": "3SERIES_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2019, 2022, 2023, 2024, 2025], "from": 2027 },
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2015, 2019, 2022, 2023, 2024, 2025], "from": 2027 },
   "signals": [
     {"id": "3SERIES_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},
@@ -496,7 +524,7 @@
   "signals": [
     {"id": "3SERIES_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 1000000, "unit": "kilometers" }, "name": "Odometer variant", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D130"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2015], "from": 2019 },
+{ "hdr": "6F1", "rax": "640", "eax": "40", "fcm1": true, "cmd": {"22": "D130"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2019 },
   "signals": [
     {"id": "3SERIES_PARK_BRAKE", "path": "Control", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Parking brake applied"}
   ]},
@@ -561,28 +589,28 @@
   "signals": [
     {"id": "3SERIES_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D85C"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2015], "from": 2019 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D85C"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2019 },
   "signals": [
     {"id": "3SERIES_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2015, 2019, 2022, 2023, 2024, 2025], "from": 2027 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2015, 2019, 2022, 2023, 2024, 2025], "from": 2027 },
   "signals": [
     {"id": "3SERIES_COMP_STATE", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C compressor operating state"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2015], "from": 2019 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D91A"}, "freq": 10, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2019 },
   "signals": [
     {"id": "3SERIES_AIR_DIST_L", "path": "Climate", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, left"},
     {"id": "3SERIES_AIR_DIST_R", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Front air distribution, right"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2015], "from": 2019 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D92C"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2019 },
   "signals": [
     {"id": "3SERIES_HVAC_OFF", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Climate control off"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2015], "from": 2019 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D930"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2019 },
   "signals": [
     {"id": "3SERIES_HVAC_AUC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Automatic air recirculation"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2015], "from": 2019 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D931"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2015], "from": 2019 },
   "signals": [
     {"id": "3SERIES_HVAC_RECIRC", "path": "Engine", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "Recirculation"}
   ]}

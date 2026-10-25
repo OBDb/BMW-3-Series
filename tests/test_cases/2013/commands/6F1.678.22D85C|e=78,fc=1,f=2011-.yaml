@@ -1,0 +1,7 @@
+command_id: 6F1.678.22D85C|e=78,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_CABIN_T: 25
+  response: |-
+    678F1100862D85C1922
+    678F121280000FFFFFF

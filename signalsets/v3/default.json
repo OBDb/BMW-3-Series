@@ -145,7 +145,7 @@
   "signals": [
     {"id": "3SERIES_MAP", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Intake manifold pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A2E"}, "freq": 3600, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A2E"}, "freq": 3600, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2019], "from": 2022 },
   "signals": [
     {"id": "3SERIES_REV_LIMIT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Rev limiter"}
   ]},

@@ -15,3 +15,8 @@ test_cases:
   response: |-
     612F1100762558F0000
     612F121158AFFFFFFFF
+- expected_values:
+    3SERIES_ENG_HOURS: 2763
+  response: |-
+    612F1100762558F0000
+    612F1211596FFFFFFFF

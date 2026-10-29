@@ -4,8 +4,8 @@ test_cases:
     3SERIES_BOOST_P: 98.32812
   response: 612F105624205312A
 - expected_values:
-    3SERIES_BOOST_P: 100.25
-  response: 612F1056242053220
+    3SERIES_BOOST_P: 102.01562
+  response: 612F1056242053302
 - expected_values:
     3SERIES_BOOST_P: 103.98438
   response: 612F10562420533FE

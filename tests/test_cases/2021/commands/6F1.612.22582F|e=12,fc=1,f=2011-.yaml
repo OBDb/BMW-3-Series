@@ -7,6 +7,9 @@ test_cases:
     3SERIES_CAT_T: -0.05
   response: 612F10562582F0AAB
 - expected_values:
+    3SERIES_CAT_T: 12.25
+  response: 612F10562582F0B26
+- expected_values:
     3SERIES_CAT_T: 91.55
   response: 612F10562582F0E3F
 - expected_values:

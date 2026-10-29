@@ -9,6 +9,12 @@ test_cases:
 - expected_values:
     3SERIES_LAMBDA: 0.59
   response: |-
+    612F1100F62400B01FB
+    612F12101FA003B0095
+    612F122F8070008FFFF
+- expected_values:
+    3SERIES_LAMBDA: 0.59
+  response: |-
     612F1100F62400B0201
     612F1210201003B0096
     612F122F80C0008FFFF

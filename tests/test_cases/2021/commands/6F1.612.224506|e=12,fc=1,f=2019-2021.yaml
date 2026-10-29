@@ -16,6 +16,9 @@ test_cases:
     3SERIES_OIL_TEMP_RAW: 12242
   response: 612F1056245062FD2
 - expected_values:
+    3SERIES_OIL_TEMP_RAW: 19993
+  response: 612F1056245064E19
+- expected_values:
     3SERIES_OIL_TEMP_RAW: 19995
   response: 612F1056245064E1B
 - expected_values:

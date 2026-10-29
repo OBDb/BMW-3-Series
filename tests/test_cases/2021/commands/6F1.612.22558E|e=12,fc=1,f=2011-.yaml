@@ -15,3 +15,8 @@ test_cases:
   response: |-
     612F1100762558E0001
     612F1219D5FFFFFFFFF
+- expected_values:
+    3SERIES_ODO_DME: 106141
+  response: |-
+    612F1100762558E0001
+    612F1219E9DFFFFFFFF

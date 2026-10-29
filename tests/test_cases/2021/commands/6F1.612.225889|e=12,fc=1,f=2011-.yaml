@@ -10,6 +10,9 @@ test_cases:
     3SERIES_LAMBDA_6F1: 0.99318
   response: 612F1056258890FE4
 - expected_values:
+    3SERIES_LAMBDA_6F1: 0.99367
+  response: 612F1056258890FE6
+- expected_values:
     3SERIES_LAMBDA_6F1: 1.01149
   response: 612F105625889102F
 - expected_values:

@@ -10,6 +10,9 @@ test_cases:
     3SERIES_LOAD_2: 23.52941
   response: 612F104624A4B3C
 - expected_values:
+    3SERIES_LOAD_2: 26.66667
+  response: 612F104624A4B44
+- expected_values:
     3SERIES_LOAD_2: 27.05882
   response: 612F104624A4B45
 - expected_values:

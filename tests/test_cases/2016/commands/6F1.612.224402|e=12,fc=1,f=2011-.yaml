@@ -7,6 +7,12 @@ test_cases:
     3SERIES_EOT_6F1: 89.5
   response: 612F10562440200B3
 - expected_values:
+    3SERIES_EOT_6F1: 91.5
+  response: 612F10562440200B7
+- expected_values:
+    3SERIES_EOT_6F1: 92
+  response: 612F10562440200B8
+- expected_values:
     3SERIES_EOT_6F1: 93.5
   response: 612F10562440200BB
 - expected_values:

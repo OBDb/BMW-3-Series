@@ -64,6 +64,8 @@ supported_commands_by_ecu:
   - 018E:TQ_FR
   - 019D:FUEL_RATE_ALT,VFUEL_RATE
   - 019E:EXH_RATE
+  - 01A2:CYL_RATE
+  - 01A6:ODO
 unsupported_commands_by_ecu:
   "6F1":
   - 6F1.22420C

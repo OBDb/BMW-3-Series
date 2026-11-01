@@ -70,6 +70,7 @@ supported_commands_by_ecu:
   - 0151:FUEL_TYP
   - 0156:LGSO2FT1
   - 015C:EOT
+  - 015E:FUEL_RATE
   - 0162:TQ_ACT
   - 0163:TQ_REF
   - 0167:ECT_1,ECT_1_SUP,ECT_2,ECT_2_SUP

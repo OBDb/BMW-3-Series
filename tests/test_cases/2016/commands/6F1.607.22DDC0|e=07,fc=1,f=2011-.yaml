@@ -1,0 +1,14 @@
+command_id: 6F1.607.22DDC0|e=07,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_HVBAT_CT_MAX: 25.93
+    3SERIES_HVBAT_CT_MIN: 22.93
+  response: |-
+    607F1100A62DDC008F5
+    607F1210A21097401FF
+- expected_values:
+    3SERIES_HVBAT_CT_MAX: 25.94
+    3SERIES_HVBAT_CT_MIN: 22.95
+  response: |-
+    607F1100A62DDC008F7
+    607F1210A22097501FF

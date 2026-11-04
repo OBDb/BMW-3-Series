@@ -1,0 +1,8 @@
+command_id: 6F1.612.2256D7|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_FRP: 102.86
+  response: 612F1056256D71417
+- expected_values:
+    3SERIES_FRP: 150.26
+  response: 612F1056256D71D59

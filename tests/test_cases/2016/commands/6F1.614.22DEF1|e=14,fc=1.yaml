@@ -1,0 +1,5 @@
+command_id: 6F1.614.22DEF1|e=14,fc=1
+test_cases:
+- expected_values:
+    3SERIES_CHG_FLAP_CLOSED: 1
+  response: 614F10562DEF10101

@@ -17,19 +17,19 @@
     {"id": "3SERIES_HVBAT_SOC_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, max"},
     {"id": "3SERIES_HVBAT_SOC_MIN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "HV battery charge, min"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2016, 2018, 2019, 2020], "from": 2023 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDC0"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2014, 2015, 2018, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "3SERIES_HVBAT_CT_MIN", "path": "Battery", "fmt": {           "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "nullmax": 327.67, "unit": "celsius" }, "name": "HV battery cell temperature, min"},
     {"id": "3SERIES_HVBAT_CT_MAX", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 327.67, "min": -327.67, "div": 100, "sign": true, "nullmax": 327.67, "unit": "celsius" }, "name": "HV battery cell temperature, max"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DF71"}, "freq": 86400, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020], "from": 2023 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DF71"}, "freq": 86400, "filter": { "from": 2011 }, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "3SERIES_HVBAT_C_CNT",     "path": "Battery", "fmt": {           "len": 16, "max": 65535, "unit": "scalar" }, "name": "Number of cells"},
     {"id": "3SERIES_HVBAT_C_CNT_MOD", "path": "Battery", "fmt": {"bix": 16, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of cells per module"},
     {"id": "3SERIES_HVBAT_MOD_CNT",   "path": "Battery", "fmt": {"bix": 24, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of modules"},
     {"id": "3SERIES_HVBAT_MOD_T_CNT", "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Number of temperature sensors per module"}
   ]},
-{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DFA0"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2018, 2019, 2020], "from": 2023 },
+{ "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DFA0"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2015, "years": [2018, 2019, 2020], "from": 2023 },
   "signals": [
     {"id": "3SERIES_HVBAT_C_CAP_MIN",        "path": "Battery", "fmt": {            "len": 16, "max": 655.35,                 "div": 100,                 "nullmax": 655.35, "unit": "ampereHours" }, "name": "Cell capacity, min"},
     {"id": "3SERIES_HVBAT_C_CAP_MAX",        "path": "Battery", "fmt": {"bix": 16,  "len": 16, "max": 655.35,                 "div": 100,                 "nullmax": 655.35, "unit": "ampereHours" }, "name": "Cell capacity, max"},
@@ -213,7 +213,7 @@
   "signals": [
     {"id": "3SERIES_ENG_HOURS", "path": "Trips", "fmt": { "len": 32, "max": 2147483647, "div": 2, "unit": "hours" }, "name": "Engine operating hours"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "56D7"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "56D7"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2015, "years": [2019], "from": 2022 },
   "signals": [
     {"id": "3SERIES_FRP", "path": "Fuel", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "bars" }, "name": "Fuel rail pressure"}
   ]},
@@ -233,7 +233,7 @@
   "signals": [
     {"id": "3SERIES_LAMBDA_2", "path": "Engine", "fmt": { "len": 16, "max": 15.99, "div": 4096, "nullmax": 15.99, "unit": "scalar" }, "name": "Lambda 2"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "582F"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "582F"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2015, "years": [2019], "from": 2022 },
   "signals": [
     {"id": "3SERIES_CAT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "nullmin": -273.15, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
@@ -269,7 +269,7 @@
   "signals": [
     {"id": "3SERIES_APP", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF1"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF1"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "3SERIES_CHG_FLAP_CLOSED", "path": "Doors", "fmt": { "len": 16, "max": 1, "unit": "yesno" }, "name": "Charge flap closed"}
   ]},
@@ -277,11 +277,11 @@
   "signals": [
     {"id": "3SERIES_CHG_READY", "path": "Battery", "fmt": { "len": 8, "max": 1, "unit": "yesno" }, "name": "Charging interface ready"}
   ]},
-{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF3"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF3"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "3SERIES_CHG_LED", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charge port light state"}
   ]},
-{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF5"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF5"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
     {"id": "3SERIES_CHG_PLUG_ST", "path": "Engine", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Charging plug state"},
     {"id": "3SERIES_CHG_CABLE_I", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "amps"   }, "name": "Charging cable current rating"}

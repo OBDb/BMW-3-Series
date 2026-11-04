@@ -1,0 +1,5 @@
+command_id: 6F1.612.224B32|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_MISFIRE_CNT_4B32: 0
+  response: 612F105624B320000

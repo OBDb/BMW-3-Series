@@ -67,11 +67,11 @@
   "signals": [
     {"id": "3SERIES_VSS_INSTR", "path": "Movement", "fmt": { "len": 16, "max": 1000, "unit": "kilometersPerHour" }, "name": "Vehicle speed, instrument cluster", "suggestedMetric": "speed", "description": "Instrument cluster vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "400B"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "400B"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2011, 2019, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "3SERIES_LAMBDA", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 2, "div": 100, "unit": "scalar" }, "name": "Lambda 1, excess air ratio"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4015"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2016, 2018, 2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4015"}, "freq": 1, "dbgfilter": { "to": 2007, "years": [2009, 2010, 2011, 2013, 2014, 2016, 2018, 2019, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "3SERIES_IAT", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 150, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
@@ -81,19 +81,19 @@
     {"id": "3SERIES_12V_V", "path": "Electrical", "fmt": {"bix": 16, "len": 16, "max": 22.3837, "min": 6,       "div": 4000, "add": 6,                  "nullmax": 22.38,  "unit": "volts"   }, "name": "12V battery voltage",     "suggestedMetric": "starterBatteryVoltage"},
     {"id": "3SERIES_12V_A", "path": "Electrical", "fmt": {"bix": 32, "len": 16, "max": 5042.8,  "min": -200,    "div": 12.5, "add": -200,               "nullmax": 5042.8, "unit": "amps"    }, "name": "12V battery current"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40CB"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2019, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "40CB"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2019, "years": [2022, 2023], "from": 2026 },
   "signals": [
     {"id": "3SERIES_ETHANOL_CAN", "path": "Fuel", "fmt": {"bix": 104, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Ethanol content, CAN broadcast, live"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "411E"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "3SERIES_COOLANT", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 200, "unit": "celsius" }, "name": "Coolant temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4201"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4201"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_BARO", "path": "Engine", "fmt": { "len": 16, "max": 255.99, "div": 256, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4205"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4205"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
   ]},
@@ -101,11 +101,11 @@
   "signals": [
     {"id": "3SERIES_ET_8", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "years": [2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "years": [2019, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "3SERIES_ET", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine temperature", "suggestedMetric": "engineCoolantTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4402"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "3SERIES_EOT_6F1", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 127.5, "div": 2, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -117,11 +117,11 @@
   "signals": [
     {"id": "3SERIES_EOT_DME_K10", "path": "Engine", "fmt": { "len": 16, "max": 382.2, "min": -273.15, "div": 10, "add": -273.15, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4408"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4408"}, "freq": 5, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_EOT_DME_K", "path": "Engine", "fmt": { "len": 16, "max": 382.2, "min": -273.15, "div": 100, "add": -273.15, "nullmin": -200, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "442C"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "442C"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_OIL_LEVEL", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil level"}
   ]},
@@ -133,43 +133,43 @@
   "signals": [
     {"id": "3SERIES_OIL_TEMP_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine oil temperature sensor, raw"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4506"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "years": [2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4506"}, "freq": 1, "filter": { "from": 2022 }, "dbgfilter": { "years": [2023], "from": 2026 },
   "signals": [
     {"id": "3SERIES_OIL_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "nullmin": -273.15, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "480C"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "480C"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_LOAD_TGT", "path": "Engine", "fmt": { "len": 16, "max": 1023.98, "div": 64, "unit": "percent" }, "name": "Engine load, target"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A2D"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A2D"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_MAP", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Intake manifold pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A2E"}, "freq": 3600, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A2E"}, "freq": 3600, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_REV_LIMIT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "rpm" }, "name": "Rev limiter"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A49"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A49"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_IGN_TIMING_1", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 1"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A4A"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A4A"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_IGN_TIMING_2", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 2"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A4B"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A4B"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_LOAD_2", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Engine load 2"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A4C"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A4C"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_IGN_TIMING_3", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 3"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A4D"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4A4D"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_IGN_TIMING_4", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 4"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4AB0"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4AB0"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2013, 2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_BOOST_P_SET", "path": "Engine", "fmt": { "len": 16, "max": 255.99, "div": 256, "unit": "kilopascal" }, "name": "Boost pressure, set point"}
   ]},
@@ -177,63 +177,63 @@
   "signals": [
     {"id": "3SERIES_VSS2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "High resolution vehicle speed."}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B23"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2018, 2019, 2020], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B23"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2018, 2019, 2020, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_MISFIRE_CNT_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire count, cylinder 1"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B24"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B24"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_MISFIRE_CNT_4B24", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 2"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B25"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2018, 2019, 2020], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B25"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2018, 2019, 2020, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_MISFIRE_CNT_4B25", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 3"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B30"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B30"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_MISFIRE_CNT_4B30", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 4"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B31"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2018, 2019, 2020], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B31"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2018, 2019, 2020, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_MISFIRE_CNT_4B31", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 5"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B32"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2018, 2019, 2020], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4B32"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2013, "years": [2018, 2019, 2020, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_MISFIRE_CNT_4B32", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire counter 6"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4C5B"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2019, "years": [2022, 2023, 2024], "from": 2027 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4C5B"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2019, "years": [2022, 2023], "from": 2027 },
   "signals": [
     {"id": "3SERIES_EGT_CALC", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 1200, "div": 10, "unit": "celsius" }, "name": "Exhaust gas calculated temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558E"}, "freq": 60, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558E"}, "freq": 60, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_ODO_DME", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer, engine computer"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558F"}, "freq": 60, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "558F"}, "freq": 60, "filter": { "from": 2011 }, "dbgfilter": { "to": 2016, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_ENG_HOURS", "path": "Trips", "fmt": { "len": 32, "max": 2147483647, "div": 2, "unit": "hours" }, "name": "Engine operating hours"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "56D7"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2015, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "56D7"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2015, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_FRP", "path": "Fuel", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "bars" }, "name": "Fuel rail pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "57C3"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2014, "years": [2019, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "57C3"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2014, "years": [2019, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "3SERIES_OIL_TEMP_ALT", "path": "Engine", "fmt": { "len": 16, "max": 200, "div": 10, "unit": "celsius" }, "name": "Engine oil temperature, alternate", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "580F"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "580F"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_IAT_DME", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "unit": "celsius" }, "name": "Intake air temperature"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "5813"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "5813"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 191.25, "mul": 0.75, "unit": "percent" }, "name": "Engine load"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "582C"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "582C"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_LAMBDA_2", "path": "Engine", "fmt": { "len": 16, "max": 15.99, "div": 4096, "nullmax": 15.99, "unit": "scalar" }, "name": "Lambda 2"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "582F"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2015, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "582F"}, "freq": 5, "filter": { "from": 2011 }, "dbgfilter": { "to": 2015, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_CAT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273.15, "div": 10, "add": -273.15, "nullmin": -273.15, "unit": "celsius" }, "name": "Catalyst temperature"}
   ]},
@@ -241,23 +241,23 @@
   "signals": [
     {"id": "3SERIES_EOP", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Engine oil pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "5889"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "5889"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_LAMBDA_6F1", "path": "Engine", "fmt": { "len": 16, "max": 16, "mul": 16, "div": 65535, "nullmax": 15.99, "unit": "scalar" }, "name": "Lambda"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58BA"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58BA"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_CRANK_TQ", "path": "Engine", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "newtonMeters" }, "name": "Crank torque"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58DB"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2012, "years": [2018, 2019, 2020], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58DB"}, "freq": 30, "filter": { "from": 2011 }, "dbgfilter": { "to": 2012, "years": [2018, 2019, 2020, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_MISFIRE_CNT_TOTAL", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, all cylinders"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58F3"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "58F3"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_LOW_SIDE_FUEL_P", "path": "Fuel", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "bars" }, "name": "Low side fuel pressure"}
   ]},
-{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "59FA"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2014, "years": [2019], "from": 2022 },
+{ "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "59FA"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2014, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "3SERIES_IGN_ANGLE", "path": "Engine", "fmt": { "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees" }, "name": "Ignition angle"}
   ]},
@@ -460,7 +460,7 @@
     {"id": "3SERIES_TP_SET_FL_F30",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Front left tire pressure, set point"},
     {"id": "3SERIES_TPMS_BAT_FL_F30", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                         "name": "Front left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "years": [2022, 2023, 2024, 2025], "from": 2027 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC98"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "years": [2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "3SERIES_TPMS_POS_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Front left tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "3SERIES_TP_FL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front left tire pressure",                    "suggestedMetric": "frontLeftTirePressure"},
@@ -476,7 +476,7 @@
     {"id": "3SERIES_TP_SET_FR_F30",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                          "name": "Front right tire pressure, set point"},
     {"id": "3SERIES_TPMS_BAT_FR_F30", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                          "name": "Front right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "years": [2022, 2023, 2024, 2025], "from": 2027 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC99"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "years": [2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "3SERIES_TPMS_POS_FR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Front right tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "3SERIES_TP_FR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Front right tire pressure",                    "suggestedMetric": "frontRightTirePressure"},
@@ -492,7 +492,7 @@
     {"id": "3SERIES_TP_SET_RL_F30",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                        "name": "Rear left tire pressure, set point"},
     {"id": "3SERIES_TPMS_BAT_RL_F30", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                        "name": "Rear left tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "years": [2022, 2023, 2024, 2025], "from": 2027 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9A"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "years": [2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "3SERIES_TPMS_POS_RL", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Rear left tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "3SERIES_TP_RL",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear left tire pressure",                    "suggestedMetric": "rearLeftTirePressure"},
@@ -508,7 +508,7 @@
     {"id": "3SERIES_TP_SET_RR_F30",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 32.76, "min": -32.76, "div": 1000,               "sign": true,                   "unit": "bars"   },                                         "name": "Rear right tire pressure, set point"},
     {"id": "3SERIES_TPMS_BAT_RR_F30", "path": "Tires", "fmt": {"bix": 120, "len": 16, "blsb": true, "max": 65535,                                                                           "unit": "scalar" },                                         "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "years": [2022, 2023, 2024, 2025], "from": 2027 },
+{ "hdr": "6F1", "rax": "629", "eax": "29", "fcm1": true, "cmd": {"22": "DC9B"}, "freq": 15, "filter": { "from": 2019 }, "dbgfilter": { "years": [2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "3SERIES_TPMS_POS_RR", "path": "Tires", "fmt": {"bix": 32,  "len": 8,  "max": 255,                                "unit": "scalar"     }, "name": "Rear right tire sensor position",             "description": "0 front left, 1 front right, 2 rear left, 3 rear right"},
     {"id": "3SERIES_TP_RR",       "path": "Tires", "fmt": {"bix": 40,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear right tire pressure",                    "suggestedMetric": "rearRightTirePressure"},
@@ -516,7 +516,7 @@
     {"id": "3SERIES_TP_SET_RR",   "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 6.3,   "div": 1000, "nullmax": 6.3, "unit": "bars"       }, "name": "Rear right tire pressure, set point"},
     {"id": "3SERIES_TPMS_BAT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 16, "max": 65535,                              "unit": "scalar"     }, "name": "Rear right tire sensor battery life, months"}
   ]},
-{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023, 2024, 2025], "from": 2027 },
+{ "hdr": "6F1", "rax": "630", "eax": "30", "fcm1": true, "cmd": {"22": "DB99"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "3SERIES_STEER_TQ", "path": "Engine", "fmt": { "len": 16, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "newtonMeters" }, "name": "Steering torque"}
   ]},

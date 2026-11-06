@@ -1,0 +1,8 @@
+command_id: 6F1.612.2259FA|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_IGN_ANGLE: 7.5
+  response: 612F1046259FA0A
+- expected_values:
+    3SERIES_IGN_ANGLE: 15.75
+  response: 612F1046259FA15

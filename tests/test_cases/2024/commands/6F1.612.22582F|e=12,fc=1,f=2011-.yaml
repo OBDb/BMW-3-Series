@@ -1,0 +1,8 @@
+command_id: 6F1.612.22582F|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_CAT_T: 440.95
+  response: 612F10562582F1BE5
+- expected_values:
+    3SERIES_CAT_T: 548.75
+  response: 612F10562582F201B

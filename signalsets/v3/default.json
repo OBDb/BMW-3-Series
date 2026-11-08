@@ -593,7 +593,7 @@
   "signals": [
     {"id": "3SERIES_CABIN_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023, 2024, 2025], "from": 2027 },
+{ "hdr": "6F1", "rax": "678", "eax": "78", "fcm1": true, "cmd": {"22": "D8C5"}, "freq": 10, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "3SERIES_COMP_STATE", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C compressor operating state"}
   ]},

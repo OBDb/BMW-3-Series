@@ -9,13 +9,17 @@ test_cases:
   response: 618F10562DA2E0303
 - expected_values:
     3SERIES_GEAR: DRIVE
+    3SERIES_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0703
 - expected_values:
     3SERIES_GEAR: DRIVE
+    3SERIES_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0803
 - expected_values:
     3SERIES_GEAR: DRIVE
+    3SERIES_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E0903
 - expected_values:
     3SERIES_GEAR: DRIVE
+    3SERIES_GEAR_SHIFT: DRIVE
   response: 618F10562DA2E1003

@@ -95,7 +95,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4205"}, "freq": 0.25, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "3SERIES_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure"}
+    {"id": "3SERIES_BOOST_P", "path": "Engine", "fmt": { "len": 16, "max": 511.99, "div": 128, "unit": "kilopascal" }, "name": "Boost pressure", "suggestedMetric": "absoluteBoostPressure"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4300"}, "freq": 1, "filter": { "to": 2016 }, "dbgfilter": { "to": 2011 },
   "signals": [
@@ -376,13 +376,20 @@
     {"id": "3SERIES_TQ_CNVRT_RPM",    "path": "Transmission", "fmt": {           "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter speed"},
     {"id": "3SERIES_TRANS_SHAFT_RPM", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Transmission output shaft speed"}
   ]},
-{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "from": 2027 },
+{ "hdr": "6F1", "rax": "618", "eax": "18", "fcm1": true, "cmd": {"22": "DA2E"}, "freq": 0.25, "filter": { "from": 2012 }, "dbgfilter": { "from": 2027 },
   "signals": [
-    {"id": "3SERIES_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "0": { "description": "Park",    "value": "PARK" },
-          "1": { "description": "Reverse", "value": "REVERSE" },
-          "2": { "description": "Neutral", "value": "NEUTRAL" },
-          "3": { "description": "Drive",   "value": "DRIVE" }
+    {"id": "3SERIES_GEAR_SHIFT", "path": "Transmission", "name": "Shift gear", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
+          "0":  { "description": "Park",    "value": "PARK" },
+          "1":  { "description": "Reverse", "value": "REVERSE" },
+          "2":  { "description": "Neutral", "value": "NEUTRAL" },
+          "3":  { "description": "Drive",   "value": "DRIVE" },
+          "4":  { "description": "Drive",   "value": "DRIVE" },
+          "5":  { "description": "Drive",   "value": "DRIVE" },
+          "6":  { "description": "Drive",   "value": "DRIVE" },
+          "7":  { "description": "Drive",   "value": "DRIVE" },
+          "8":  { "description": "Drive",   "value": "DRIVE" },
+          "9":  { "description": "Drive",   "value": "DRIVE" },
+          "16": { "description": "Drive",   "value": "DRIVE" }
         }}
     },
     {"id": "3SERIES_GEAR", "path": "Transmission", "name": "Drive mode", "fmt": {"bix": 8, "len": 8, "map": {

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     3SERIES_FRP: 150.26
   response: 612F1056256D71D59
+- expected_values:
+    3SERIES_FRP: 201.62
+  response: 612F1056256D72761

@@ -12,3 +12,9 @@ test_cases:
   response: |-
     607F1100A62DDC008F7
     607F1210A22097501FF
+- expected_values:
+    3SERIES_HVBAT_CT_MAX: 28.03
+    3SERIES_HVBAT_CT_MIN: 25.03
+  response: |-
+    607F1100A62DDC009C7
+    607F1210AF30A5301FF

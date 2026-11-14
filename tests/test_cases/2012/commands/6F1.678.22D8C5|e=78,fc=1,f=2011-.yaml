@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     3SERIES_COMP_STATE: 40
   response: 678F10562D8C52804
+- expected_values:
+    3SERIES_COMP_STATE: 56
+  response: 678F10562D8C53800

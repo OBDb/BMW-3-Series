@@ -26,12 +26,12 @@ test_cases:
     640F110076217000000
     640F121C1BFFFFFFFFF
 - expected_values:
-    3SERIES_ODO_2: 60331
-  response: |-
-    640F110076217000000
-    640F121EBABFFFFFFFF
-- expected_values:
     3SERIES_ODO_2: 66855
   response: |-
     640F110076217000001
     640F1210527FFFFFFFF
+- expected_values:
+    3SERIES_ODO_2: 130558
+  response: |-
+    640F110076217000001
+    640F121FDFEFFFFFFFF

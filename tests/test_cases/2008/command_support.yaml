@@ -6,6 +6,7 @@ supported_commands_by_ecu:
   - 6F1.618.2105|e=18,fc=1,f=2026-;-2019:3SERIES_TURBINE_SPD
   - 6F1.618.210A|e=18,fc=1,f=2026-;-2019:3SERIES_ATF_T
   "7DF":
+  - 7DF.010C
   - 7DF.0111
   - 7DF.0131
   - 7DF.0144

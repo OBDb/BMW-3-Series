@@ -84,7 +84,6 @@ supported_commands_by_ecu:
   - 0105:ECT
   - 010C:RPM
   - 010D:VSS
-  - 0111:TP
   - 011C:OBDSUP
   - 0121:MIL_DIST
   - 0130:WARM_UPS

@@ -1,0 +1,17 @@
+command_id: 6F1.612.224436|e=12,fc=1
+test_cases:
+- expected_values:
+    3SERIES_4436: 1001
+  response: 612F10562443603E9
+- expected_values:
+    3SERIES_4436: 1003
+  response: 612F10562443603EB
+- expected_values:
+    3SERIES_4436: 3019
+  response: 612F1056244360BCB
+- expected_values:
+    3SERIES_4436: 3337
+  response: 612F1056244360D09
+- expected_values:
+    3SERIES_4436: 5000
+  response: 612F1056244361388

@@ -146,6 +146,13 @@ supported_commands_by_ecu:
   - 0104:LOAD_PCT
   - 0105:ECT
   - 010C:RPM
+  - 010D:VSS
+  - 0111:TP
+  - 011C:OBDSUP
+  - 0121:MIL_DIST
+  - 0130:WARM_UPS
+  - 0131:CLR_DIST
+  - 0142:VPWR
   - 7E1.7E9.0101
   - 7E1.7E9.0104
   - 7E1.7E9.0105

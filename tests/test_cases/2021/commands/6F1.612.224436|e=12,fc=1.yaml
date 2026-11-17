@@ -1,7 +1,7 @@
 command_id: 6F1.612.224436|e=12,fc=1
 test_cases:
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F10462465001
     612F10462583B00
@@ -10,7 +10,7 @@ test_cases:
     612F10562440882D7
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F10462465001
     612F10562442C0000
@@ -18,7 +18,7 @@ test_cases:
     612F10462583B00
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F10462465001
     612F110076244020000
@@ -27,7 +27,7 @@ test_cases:
     612F10562442C0000
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F10462465001
     612F110076244020000
@@ -35,14 +35,14 @@ test_cases:
     612F1056244360000
     612F10562440882D9
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F10462583B00
     612F10562440882B3
     612F10562442C0000
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F10462583B00
     612F10562440882E6
@@ -51,7 +51,7 @@ test_cases:
     612F1210000FFFFFFFF
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F10462583B00
     612F110076244020000
@@ -60,14 +60,14 @@ test_cases:
     612F10562440882DC
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F1056244088296
     612F110076244020000
     612F1210000FFFFFFFF
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F10562440882DE
     612F110076244020000
@@ -77,15 +77,15 @@ test_cases:
     612F10462583B00
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F10562442C0000
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: 612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F110076244020000
     612F1210000FFFFFFFF
@@ -94,7 +94,7 @@ test_cases:
     612F10562440882DB
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F110076244020000
     612F1210000FFFFFFFF
@@ -102,7 +102,7 @@ test_cases:
     612F10462583B00
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F110076244020000
     612F1210000FFFFFFFF
@@ -110,7 +110,7 @@ test_cases:
     612F10462583B00
     612F1056244360000
 - expected_values:
-    3SERIES_4436: 0
+    3SERIES_4436: null
   response: |-
     612F110076244020000
     612F1210000FFFFFFFF

@@ -127,7 +127,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4436"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
-    {"id": "3SERIES_4436", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Absolute oil pressure"}
+    {"id": "3SERIES_4436", "path": "Engine", "fmt": { "len": 16, "max": 65535, "nullmin": 0, "unit": "scalar" }, "name": "Absolute oil pressure"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4506"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2011 },
   "signals": [
@@ -143,7 +143,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "4650"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2019, 2020], "from": 2022 },
   "signals": [
-    {"id": "3SERIES_4650", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "mul": 0.75, "add": -48, "unit": "scalar" }, "name": "Transmission temperature"}
+    {"id": "3SERIES_4650", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 0.75, "add": -48, "nullmin": -47.25, "unit": "scalar" }, "name": "Transmission temperature"}
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "480C"}, "freq": 1, "filter": { "from": 2011 }, "dbgfilter": { "to": 2011, "years": [2019, 2022, 2023], "from": 2025 },
   "signals": [

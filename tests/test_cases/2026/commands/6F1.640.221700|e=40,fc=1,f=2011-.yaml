@@ -1,0 +1,42 @@
+command_id: 6F1.640.221700|e=40,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_ODO_2: 392
+  response: |-
+    640F110076217000000
+    640F1210188FFFFFFFF
+- expected_values:
+    3SERIES_ODO_2: 402
+  response: |-
+    640F110076217000000
+    640F1210192FFFFFFFF
+- expected_values:
+    3SERIES_ODO_2: 412
+  response: |-
+    640F110076217000000
+    640F121019CFFFFFFFF
+- expected_values:
+    3SERIES_ODO_2: 422
+  response: |-
+    640F110076217000000
+    640F12101A6FFFFFFFF
+- expected_values:
+    3SERIES_ODO_2: 432
+  response: |-
+    640F110076217000000
+    640F12101B0FFFFFFFF
+- expected_values:
+    3SERIES_ODO_2: 442
+  response: |-
+    640F110076217000000
+    640F12101BAFFFFFFFF
+- expected_values:
+    3SERIES_ODO_2: 452
+  response: |-
+    640F110076217000000
+    640F12101C4FFFFFFFF
+- expected_values:
+    3SERIES_ODO_2: 462
+  response: |-
+    640F110076217000000
+    640F12101CEFFFFFFFF

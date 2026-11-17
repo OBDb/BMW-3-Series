@@ -1,0 +1,26 @@
+command_id: 6F1.612.2258BA|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_CRANK_TQ: 0
+  response: 612F1056258BA0000
+- expected_values:
+    3SERIES_CRANK_TQ: 65.7
+  response: 612F1056258BA0291
+- expected_values:
+    3SERIES_CRANK_TQ: 94.3
+  response: 612F1056258BA03AF
+- expected_values:
+    3SERIES_CRANK_TQ: 96.3
+  response: 612F1056258BA03C3
+- expected_values:
+    3SERIES_CRANK_TQ: 103.6
+  response: 612F1056258BA040C
+- expected_values:
+    3SERIES_CRANK_TQ: 109.5
+  response: 612F1056258BA0447
+- expected_values:
+    3SERIES_CRANK_TQ: 113.2
+  response: 612F1056258BA046C
+- expected_values:
+    3SERIES_CRANK_TQ: 122.2
+  response: 612F1056258BA04C6

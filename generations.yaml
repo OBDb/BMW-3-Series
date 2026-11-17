@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/BMW_3_Series"
+
 generations:
   - name: "First Generation (E21)"
     start_year: 1975
@@ -20,16 +23,21 @@ generations:
     description: "Widely considered a high point for the 3 Series, the E46 balanced modern technology with traditional BMW driving dynamics. Available in sedan, coupe, convertible, wagon, and compact body styles, it featured refined straight-six engines and improved interior quality. The E46 M3 with its 333 HP 3.2L straight-six is particularly revered. This generation combined mechanical purity with modern comfort and technology."
 
   - name: "Fifth Generation (E90/E91/E92/E93)"
-    start_year: 2005
-    end_year: 2013
+    start_year: 2004
+    end_year: 2012
     description: "The fifth-generation 3 Series comprised the E90 sedan, E91 wagon, E92 coupe, and E93 convertible (with a folding hardtop). It introduced run-flat tires, advanced electronic systems, and turbocharged engines on non-M models. The M3 featured a high-revving 4.0L V8. While more technologically advanced than its predecessors, some enthusiasts felt it lost some of the traditional BMW handling feel."
 
-  - name: "Sixth Generation (F30/F31/F34)"
-    start_year: 2012
+  - name: "Sixth Generation (F30/F31/F34/F35)"
+    start_year: 2011
     end_year: 2019
     description: "The F30 generation separated the 3 Series sedan and wagon from the coupe and convertible (which became the 4 Series). It introduced a wider range of turbocharged engines, electric power steering, and significantly more technology. The F34 Gran Turismo offered a more practical fastback body style. The M3 returned to a straight-six engine, now twin-turbocharged with 425-450 HP. This generation focused on efficiency and technology while attempting to maintain BMW's driving dynamics."
 
-  - name: "Seventh Generation (G20/G21)"
-    start_year: 2019
+  - name: "Seventh Generation (G20/G21/G28)"
+    start_year: 2018
     end_year: null
     description: "The current 3 Series features more aggressive styling, improved dynamics with a stiffer chassis, and advanced technology including partially automated driving capabilities. Engine options range from three-cylinder to six-cylinder units, with hybrid options available. The interior features BMW's latest iDrive system and digital displays. The G20 generation refocused on driver engagement following criticism of the F30. The M3 offers up to 503 HP in Competition form, with optional all-wheel drive for the first time. Throughout its evolution, the 3 Series has remained BMW's core model, embodying the brand's 'Ultimate Driving Machine' ethos while adapting to changing market demands."
+
+  - name: "Eighth Generation (G50/G51/NA0)"
+    start_year: 2026
+    end_year: null
+    description: "The eighth generation of the BMW 3 Series lineup consists of internationally available ICE (internal combustion engine) and BEV (battery electric) versions. The G50 is the conventional gasoline/hybrid variant, while the NA0 is the battery electric variant exclusive for the Chinese market as the i3. The G50 is rumored to receive a touring bodystyle (G51), while the NA0 is rumored to receive a China-exclusive long-wheelbase variant (NA8). Performance-oriented M3 models are planned for both ICE and BEV versions. Following the 'Neue Klasse' design language introduced with the iX3, the G50 will embrace a radical and retro design makeover, new interior layout, and all-new driving technology."

@@ -1,0 +1,14 @@
+command_id: 6F1.612.225889|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_LAMBDA_6F1: 0.9485
+  response: 612F1056258890F2D
+- expected_values:
+    3SERIES_LAMBDA_6F1: 1.62112
+  response: 612F10562588919F0
+- expected_values:
+    3SERIES_LAMBDA_6F1: 12.00092
+  response: 612F105625889C003
+- expected_values:
+    3SERIES_LAMBDA_6F1: 13.55514
+  response: 612F105625889D8E1

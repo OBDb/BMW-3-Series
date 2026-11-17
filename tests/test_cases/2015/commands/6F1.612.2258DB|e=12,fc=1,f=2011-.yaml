@@ -1,0 +1,5 @@
+command_id: 6F1.612.2258DB|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_MISFIRE_CNT_TOTAL: 0
+  response: 612F1056258DB0000

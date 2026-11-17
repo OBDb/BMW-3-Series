@@ -1,0 +1,8 @@
+command_id: 6F1.612.224AB0|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_BOOST_P_SET: 102.91016
+  response: 612F105624AB066E9
+- expected_values:
+    3SERIES_BOOST_P_SET: 103.08594
+  response: 612F105624AB06716

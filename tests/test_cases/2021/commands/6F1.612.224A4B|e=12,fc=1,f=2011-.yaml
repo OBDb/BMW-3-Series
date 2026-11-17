@@ -1,0 +1,23 @@
+command_id: 6F1.612.224A4B|e=12,fc=1,f=2011-
+test_cases:
+- expected_values:
+    3SERIES_LOAD_2: 0
+  response: 612F104624A4B00
+- expected_values:
+    3SERIES_LOAD_2: 19.60784
+  response: 612F104624A4B32
+- expected_values:
+    3SERIES_LOAD_2: 23.52941
+  response: 612F104624A4B3C
+- expected_values:
+    3SERIES_LOAD_2: 26.66667
+  response: 612F104624A4B44
+- expected_values:
+    3SERIES_LOAD_2: 27.05882
+  response: 612F104624A4B45
+- expected_values:
+    3SERIES_LOAD_2: 29.41176
+  response: 612F104624A4B4B
+- expected_values:
+    3SERIES_LOAD_2: 31.37255
+  response: 612F104624A4B50

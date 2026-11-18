@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     3SERIES_4436: 2443
   response: 612F105624436098B
+- expected_values:
+    3SERIES_4436: 2684
+  response: 612F1056244360A7C

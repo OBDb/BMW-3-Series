@@ -1,0 +1,8 @@
+command_id: 6F1.612.224650|e=12,fc=1
+test_cases:
+- expected_values:
+    3SERIES_4650: 24
+  response: 612F10462465060
+- expected_values:
+    3SERIES_4650: 24.75
+  response: 612F10462465061

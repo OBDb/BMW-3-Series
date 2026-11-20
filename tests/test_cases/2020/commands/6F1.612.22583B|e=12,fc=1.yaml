@@ -1,0 +1,5 @@
+command_id: 6F1.612.22583B|e=12,fc=1
+test_cases:
+- expected_values:
+    3SERIES_FUEL_TANK2: 15
+  response: 612F10462583B0F

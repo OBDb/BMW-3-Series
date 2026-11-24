@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     3SERIES_EOT_6F1: 96.5
   response: 612F10562440200C1
+- expected_values:
+    3SERIES_EOT_6F1: 97.5
+  response: 612F10562440200C3

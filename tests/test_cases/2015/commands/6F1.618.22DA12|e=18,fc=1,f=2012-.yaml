@@ -4,8 +4,8 @@ test_cases:
     3SERIES_ATF_TEMP: 10
   response: 618F10562DA12003A
 - expected_values:
-    3SERIES_ATF_TEMP: 42
-  response: 618F10562DA12005A00
+    3SERIES_ATF_TEMP: 34
+  response: 618F10562DA12005200
 - expected_values:
     3SERIES_ATF_TEMP: 94
   response: 618F10562DA12008E00
